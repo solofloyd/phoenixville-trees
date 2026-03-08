@@ -13,6 +13,7 @@ Put your CSV in the same folder as this script, named:
 
 import pandas as pd
 import os
+from pathlib import Path
 import numpy as np
 import folium
 from folium.plugins import MarkerCluster
@@ -338,20 +339,13 @@ with page_about:
     with col_photo:
         st.markdown('<div class="section-head">📷 Phoenixville Street Trees</div>',
                     unsafe_allow_html=True)
-        st.markdown("""
-        <div class="photo-placeholder">
-            📷 Photo placeholder<br><br>
-            <em>Suggested: A well-canopied street scene in Phoenixville —
-            Bridge St., Gay St., or a neighborhood block showing mature tree canopy</em>
-        </div>
-        """, unsafe_allow_html=True)
-        st.markdown("<br>", unsafe_allow_html=True)
-        st.markdown("""
-        <div class="photo-placeholder">
-            📷 Photo placeholder<br><br>
-            <em>Suggested: Volunteer planting event or TAC members at work</em>
-        </div>
-        """, unsafe_allow_html=True)
+        _here = Path(__file__).parent
+        st.image(str(_here / "bridge_st.jpg"),
+                 caption="Bridge St. — street trees create the shaded, welcoming atmosphere that defines downtown Phoenixville",
+                 use_container_width=True)
+        st.image(str(_here / "PXL_20250712_163714158.jpg"),
+                 caption="Blob Fest on Bridge St. — the urban forest canopy frames Phoenixville's most beloved public street",
+                 use_container_width=True)
 
     st.divider()
 
@@ -431,16 +425,15 @@ with page_about:
         """)
 
     with col_mapphoto:
-        st.markdown('<div class="section-head">🗺️ Canopy Cover & Planting Priority Map</div>',
+        st.markdown('<div class="section-head">🌳 Phoenixville Urban Forest Canopy</div>',
                     unsafe_allow_html=True)
-        st.markdown("""
-        <div class="photo-placeholder">
-            📷 Map placeholder<br><br>
-            <em>Suggested: The Tree Equity Score + cluster analysis overlay map
-            showing downtown and North Side priority areas in red/orange —
-            from the TAC Planting Site Selection analysis</em>
-        </div>
-        """, unsafe_allow_html=True)
+        _here = Path(__file__).parent
+        st.image(str(_here / "IMG_20211011_110513.jpg"),
+                 caption="Aerial view of the downtown canopy in fall color — the historic iron works framed by trees",
+                 use_container_width=True)
+        st.image(str(_here / "IMG_20200526_120337.jpg"),
+                 caption="A fully canopied residential street — mature trees arching over the roadway",
+                 use_container_width=True)
 
     st.divider()
 
