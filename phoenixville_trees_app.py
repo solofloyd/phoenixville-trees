@@ -214,7 +214,7 @@ if sel_landuse: filtered = filtered[filtered["Land Use"].isin(sel_landuse)]
 # ── Top-level page tabs ────────────────────────────────────────────────────────
 _title_logo, _title_text = st.columns([1, 8], gap="medium")
 with _title_logo:
-    st.image(str(Path(__file__).parent / "phoenix_tree_logo.jpg"), width=90)
+    st.image(str(Path(__file__).parent / "phoenix_tree_logo.jpg"), width=500)
 with _title_text:
     st.title("🌳 Phoenixville Urban Forest Dashboard")
     st.caption("Phoenixville Tree Advisory Commission · 2022 Inventory")
