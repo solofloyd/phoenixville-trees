@@ -224,7 +224,7 @@ with _title_text:
     st.title("Phoenixville Urban Forest Dashboard")
     st.caption("Phoenixville Tree Advisory Commission · 2022 Inventory")
 
-page_about, page_explorer = st.tabs(["🌿 About This Dashboard", "🗺️ Inventory Explorer"])
+page_about, page_explorer, page_planting, page_decisions = st.tabs(["🌿 About This Dashboard", "🗺️ Inventory Explorer", "🌱 Planting Planning", "🔧 Decision Support"])
 
 # ══════════════════════════════════════════════════════════════════════════════
 # ABOUT TAB
@@ -442,7 +442,7 @@ with page_about:
                  use_container_width=True)
 
     st.image(str(_here / "IMG_20200526_120337.jpg"),
-             caption="A fully canopied residential street — mature trees arching over the roadway providing cooling shade on a hot summer day",
+             caption="A fully canopied residential street — mature trees arching over the roadway",
              use_container_width=True)
 
     st.divider()
@@ -755,3 +755,172 @@ with page_explorer:
             file_name="phoenixville_trees_filtered.csv",
             mime="text/csv",
         )
+
+# ══════════════════════════════════════════════════════════════════════════════
+# PLANTING PLANNING TAB
+# ══════════════════════════════════════════════════════════════════════════════
+with page_planting:
+
+    _here = Path(__file__).parent
+
+    st.markdown("""
+    <div class="about-hero">
+        <h2>Planting Planning</h2>
+        <p>Each planting season the TAC coordinates volunteer and contract tree planting
+        across the borough. This tab will host planting history maps, species diversity
+        analysis, and site prioritization tools to support planning for future seasons.</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    st.markdown("""
+    <div class="callout-box">
+    <strong>🚧 Coming soon</strong><br>
+    Planting history maps (2021–present), species breakdown by year, and site
+    selection tools are being finalized and will appear here.
+    </div>
+    """, unsafe_allow_html=True)
+
+    st.markdown("<br>", unsafe_allow_html=True)
+
+    # ── Community planting photos ─────────────────────────────────────────────
+    st.markdown('<div class="section-head">🤝 Community Planting Events</div>',
+                unsafe_allow_html=True)
+
+    ph1, ph2 = st.columns(2, gap="large")
+    with ph1:
+        st.image(str(_here / "DSC_0261.jpg"),
+                 caption="Spring planting event — volunteers learning proper tree planting technique",
+                 use_container_width=True)
+    with ph2:
+        st.image(str(_here / "IMG_3975.JPG"),
+                 caption="Tree City USA — Phoenixville volunteers at an Arbor Day planting event",
+                 use_container_width=True)
+
+    st.markdown("<br>", unsafe_allow_html=True)
+
+    # ── Species chart placeholder ─────────────────────────────────────────────
+    st.markdown('<div class="section-head">🌳 Top Species Planted (2021–2023)</div>',
+                unsafe_allow_html=True)
+    st.image(str(_here / "trees_planted_by_species.jpg"), use_container_width=True)
+
+    st.divider()
+
+    # ── What goes here ────────────────────────────────────────────────────────
+    fu1, fu2 = st.columns(2, gap="large")
+    with fu1:
+        st.markdown('<div class="section-head">📋 What This Tab Will Include</div>',
+                    unsafe_allow_html=True)
+        st.markdown("""
+        - **Interactive planting history map** — all trees planted since 2021,
+          color-coded by year with species and size on click
+        - **Species diversity analysis** — are we planting too many of the same genus?
+        - **Site prioritization** — canopy coverage gaps and Tree Equity Score overlays
+          to identify where to plant next
+        - **Season planning tools** — volunteer vs. contract split recommendations
+        """)
+    with fu2:
+        st.markdown('<div class="section-head">📅 Planting History Summary</div>',
+                    unsafe_allow_html=True)
+        st.markdown("""
+        | Season | Type | Trees |
+        |--------|------|-------|
+        | Spring 2021 | Volunteer | — |
+        | Fall 2021 | Contract + PHS Bare Root | — |
+        | Spring 2022 | Contract + Volunteer | — |
+        | Fall 2022 | Contract + Volunteer | — |
+        | Spring 2023 | Contract + Volunteer | — |
+        | Fall 2023 | Volunteer + Parks | — |
+        | **Total** | | **~279** |
+
+        *Detailed species and location data being integrated.*
+        """)
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# DECISION SUPPORT TAB
+# ══════════════════════════════════════════════════════════════════════════════
+with page_decisions:
+
+    _here = Path(__file__).parent
+
+    st.markdown("""
+    <div class="about-hero">
+        <h2>Decision Support</h2>
+        <p>Managing an urban forest means making difficult calls — which trees to prune,
+        which to remove, and where to invest limited resources. This tab will provide
+        data-driven tools to support those decisions.</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    st.markdown("<br>", unsafe_allow_html=True)
+
+    # ── Removals and pruning tracker description ──────────────────────────────
+    ds1, ds2 = st.columns(2, gap="large")
+
+    with ds1:
+        st.markdown('<div class="section-head">🗺️ Removals & Pruning Tracker</div>',
+                    unsafe_allow_html=True)
+        st.markdown("""
+        A dedicated map dashboard is planned to track significant tree management
+        actions across the borough over time. It will allow the TAC and borough staff to:
+
+        - **Log removals** — record when and why a tree was removed, with the ability
+          to flag the site for replanting
+        - **Track pruning history** — know which trees have been pruned, when, and by
+          whom, so work isn't duplicated and recurring problem trees are flagged
+        - **Monitor priority trees** — keep a watchlist of trees in Poor condition or
+          with known structural issues, with notes updated each field season
+        - **Document EAB and other pest activity** — track ash tree decline borough-wide
+          as Emerald Ash Borer continues to spread through Chester County
+        - **Support budget planning** — give borough staff a clear picture of anticipated
+          removal and pruning costs in the coming seasons
+        """)
+
+        st.markdown("""
+        <div class="callout-box">
+        <strong>🚧 Coming soon</strong><br>
+        The removals and pruning tracker map is under development. It will be linked
+        here once available.
+        </div>
+        """, unsafe_allow_html=True)
+
+    with ds2:
+        st.markdown('<div class="section-head">📊 Priority Action Queue</div>',
+                    unsafe_allow_html=True)
+        st.markdown("""
+        Beyond removals, this tab will surface other data-driven priority actions:
+        """)
+
+        st.markdown("""
+        <div class="callout-box-red">
+        <strong>🚨 Ash trees requiring field verification</strong><br>
+        42 ash trees (<em>Fraxinus</em> spp.) remain in the inventory as Alive.
+        With EAB confirmed in Chester County, each should be assessed for decline
+        before the next planting season.
+        </div>
+        """, unsafe_allow_html=True)
+
+        st.markdown("""
+        <div class="callout-box">
+        <strong>⚠️ Trees flagged for sidewalk infringement</strong><br>
+        Several inventory trees have noted sidewalk conflicts. A prioritized list
+        by severity will appear here to support maintenance scheduling.
+        </div>
+        """, unsafe_allow_html=True)
+
+        st.markdown("""
+        <div class="callout-box">
+        <strong>⚠️ Poor condition trees by neighborhood</strong><br>
+        136 trees are currently rated Poor condition. A map and ranked list by
+        block will appear here to guide field assessment priorities.
+        </div>
+        """, unsafe_allow_html=True)
+
+        st.markdown("""
+        <div class="section-head" style="margin-top:1.5rem;">🤝 How This Supports the TAC</div>
+        """, unsafe_allow_html=True)
+        st.markdown("""
+        When commission members or borough staff need to make a recommendation —
+        on a removal request, a pruning contract, or a resident complaint — this
+        tab will provide the data context to make that call confidently and consistently.
+        """)
