@@ -20,13 +20,9 @@ from folium.plugins import MarkerCluster
 import streamlit as st
 from streamlit_folium import st_folium
 import plotly.express as px
-import plotly.graph_objects as go
-
-# ── Page config ───────────────────────────────────────────────────────────────
-st.set_page_config(
+import plotly.graph_objects 
     page_title="Phoenixville Urban Forest",
-    page_icon="🌳",
-    layout="wide",
+        layout="wide",
 )
 
 # Inject CSS to prevent Streamlit from clipping metric labels
