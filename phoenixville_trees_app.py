@@ -442,7 +442,7 @@ with page_about:
                  use_container_width=True)
 
     st.image(str(_here / "IMG_20200526_120337.jpg"),
-             caption="A fully canopied residential street — mature trees arching over the roadway",
+             caption="A fully canopied residential street — mature trees arching over the roadway providing cooling shade on a hot summer day",
              use_container_width=True)
 
     st.divider()
