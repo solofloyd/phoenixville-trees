@@ -25,8 +25,9 @@ import plotly.graph_objects as go
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="Phoenixville Urban Forest",
-    page_icon=None,
+    page_icon="🌳",
     layout="wide",
+    initial_sidebar_state="collapsed",
 )
 
 # Inject CSS to prevent Streamlit from clipping metric labels
@@ -481,6 +482,8 @@ with page_about:
 # INVENTORY EXPLORER TAB
 # ══════════════════════════════════════════════════════════════════════════════
 with page_explorer:
+
+    st.caption("👈 Use the sidebar (arrow at top left) to filter by condition, species, DBH, or land use.")
 
     c1,c2,c3,c4 = st.columns(4)
     c1.metric("Showing (filtered)",      f"{len(filtered):,}")
