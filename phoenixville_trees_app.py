@@ -279,15 +279,20 @@ with page_about:
     """, unsafe_allow_html=True)
 
     # ── Hero banner ──────────────────────────────────────────────────────────
-    st.markdown("""
-    <div class="about-hero">
-        <h2>Phoenixville's Urban Forest</h2>
-        <p>The trees lining Phoenixville's streets and filling its parks are a living public
-        infrastructure — reducing stormwater runoff, cooling neighborhoods, cleaning the air,
-        and making the borough a more beautiful place to live. This dashboard makes that
-        resource visible, measurable, and manageable.</p>
-    </div>
-    """, unsafe_allow_html=True)
+    _here = Path(__file__).parent
+    hero_logo, hero_text = st.columns([1, 4], gap="medium")
+    with hero_logo:
+        st.image(str(_here / "phoenix_tree_logo.jpg"), use_container_width=True)
+    with hero_text:
+        st.markdown("""
+        <div class="about-hero">
+            <h2>Phoenixville's Urban Forest</h2>
+            <p>The trees lining Phoenixville's streets and filling its parks are a living public
+            infrastructure — reducing stormwater runoff, cooling neighborhoods, cleaning the air,
+            and making the borough a more beautiful place to live. This dashboard makes that
+            resource visible, measurable, and manageable.</p>
+        </div>
+        """, unsafe_allow_html=True)
 
     # ── Key stats row ─────────────────────────────────────────────────────────
     s1, s2, s3, s4 = st.columns(4)
@@ -314,12 +319,12 @@ with page_about:
 
     st.markdown("<br>", unsafe_allow_html=True)
 
-    # ── Why trees matter + photo ──────────────────────────────────────────────
-    col_text, col_photo = st.columns([3, 2], gap="large")
+    # ── Why trees matter ─────────────────────────────────────────────────────
+    st.markdown('<div class="section-head">🌳 Why Street Trees Matter</div>',
+                unsafe_allow_html=True)
 
-    with col_text:
-        st.markdown('<div class="section-head">🌳 Why Street Trees Matter</div>',
-                    unsafe_allow_html=True)
+    why_text, why_photo = st.columns([3, 2], gap="large")
+    with why_text:
         st.markdown("""
         Urban trees are among the highest-return public investments a municipality can make.
         Phoenixville's urban forest delivers measurable benefits every year:
@@ -335,17 +340,16 @@ with page_about:
         - **Community character** — Phoenixville's tree canopy is part of what makes the
           borough a desirable place to live, work, and visit
         """)
-
-    with col_photo:
-        st.markdown('<div class="section-head">📷 Phoenixville Street Trees</div>',
-                    unsafe_allow_html=True)
+    with why_photo:
         _here = Path(__file__).parent
         st.image(str(_here / "bridge_st.jpg"),
-                 caption="Bridge St. — street trees create the shaded, welcoming atmosphere that defines downtown Phoenixville",
+                 caption="Bridge St. — the street tree canopy defines downtown Phoenixville",
                  use_container_width=True)
-        st.image(str(_here / "PXL_20250712_163714158.jpg"),
-                 caption="Blob Fest on Bridge St. — the urban forest canopy frames Phoenixville's most beloved public street",
-                 use_container_width=True)
+
+    # ── Street photos: Blob Fest full width ──────────────────────────────────
+    st.image(str(_here / "PXL_20250712_163714158.jpg"),
+             caption="Blob Fest on Bridge St. — the urban forest canopy frames Phoenixville's most beloved public street",
+             use_container_width=True)
 
     st.divider()
 
