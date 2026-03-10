@@ -212,8 +212,12 @@ if sel_species: filtered = filtered[filtered["Common Name"].isin(sel_species)]
 if sel_landuse: filtered = filtered[filtered["Land Use"].isin(sel_landuse)]
 
 # ── Top-level page tabs ────────────────────────────────────────────────────────
-st.title("🌳 Phoenixville Urban Forest Dashboard")
-st.caption("Phoenixville Tree Advisory Commission · 2022 Inventory")
+_title_logo, _title_text = st.columns([1, 8], gap="medium")
+with _title_logo:
+    st.image(str(Path(__file__).parent / "phoenix_tree_logo.jpg"), width=90)
+with _title_text:
+    st.title("🌳 Phoenixville Urban Forest Dashboard")
+    st.caption("Phoenixville Tree Advisory Commission · 2022 Inventory")
 
 page_about, page_explorer = st.tabs(["🌿 About This Dashboard", "🗺️ Inventory Explorer"])
 
@@ -280,19 +284,15 @@ with page_about:
 
     # ── Hero banner ──────────────────────────────────────────────────────────
     _here = Path(__file__).parent
-    hero_logo, hero_text = st.columns([1, 4], gap="medium")
-    with hero_logo:
-        st.image(str(_here / "phoenix_tree_logo.jpg"), use_container_width=True)
-    with hero_text:
-        st.markdown("""
-        <div class="about-hero">
-            <h2>Phoenixville's Urban Forest</h2>
-            <p>The trees lining Phoenixville's streets and filling its parks are a living public
-            infrastructure — reducing stormwater runoff, cooling neighborhoods, cleaning the air,
-            and making the borough a more beautiful place to live. This dashboard makes that
-            resource visible, measurable, and manageable.</p>
-        </div>
-        """, unsafe_allow_html=True)
+    st.markdown("""
+    <div class="about-hero">
+        <h2>Phoenixville's Urban Forest</h2>
+        <p>The trees lining Phoenixville's streets and filling its parks are a living public
+        infrastructure — reducing stormwater runoff, cooling neighborhoods, cleaning the air,
+        and making the borough a more beautiful place to live. This dashboard makes that
+        resource visible, measurable, and manageable.</p>
+    </div>
+    """, unsafe_allow_html=True)
 
     # ── Key stats row ─────────────────────────────────────────────────────────
     s1, s2, s3, s4 = st.columns(4)
@@ -435,9 +435,10 @@ with page_about:
         st.image(str(_here / "IMG_20211011_110513.jpg"),
                  caption="Aerial view of the downtown canopy in fall color — the historic iron works framed by trees",
                  use_container_width=True)
-        st.image(str(_here / "IMG_20200526_120337.jpg"),
-                 caption="A fully canopied residential street — mature trees arching over the roadway",
-                 use_container_width=True)
+
+    st.image(str(_here / "IMG_20200526_120337.jpg"),
+             caption="A fully canopied residential street — mature trees arching over the roadway",
+             use_container_width=True)
 
     st.divider()
 
