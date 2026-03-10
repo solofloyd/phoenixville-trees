@@ -22,10 +22,14 @@ from streamlit_folium import st_folium
 import plotly.express as px
 import plotly.graph_objects as go
 
+from PIL import Image
+
 # ── Page config ───────────────────────────────────────────────────────────────
+_logo_path = Path(__file__).parent / "phoenix_tree_logo.jpg"
+_logo_img  = Image.open(_logo_path) if _logo_path.exists() else "🌳"
 st.set_page_config(
     page_title="Phoenixville Urban Forest",
-    page_icon="🌳",
+    page_icon=_logo_img,
     layout="wide",
     initial_sidebar_state="collapsed",
 )
@@ -217,7 +221,7 @@ _title_logo, _title_text = st.columns([3, 8], gap="medium")
 with _title_logo:
     st.image(str(Path(__file__).parent / "phoenix_tree_logo.jpg"), width=500)
 with _title_text:
-    st.title("🌳 Phoenixville Urban Forest Dashboard")
+    st.title("Phoenixville Urban Forest Dashboard")
     st.caption("Phoenixville Tree Advisory Commission · 2022 Inventory")
 
 page_about, page_explorer = st.tabs(["🌿 About This Dashboard", "🗺️ Inventory Explorer"])
