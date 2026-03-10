@@ -296,6 +296,10 @@ with page_about:
         infrastructure — reducing stormwater runoff, cooling neighborhoods, cleaning the air,
         and making the borough a more beautiful place to live. This dashboard makes that
         resource visible, measurable, and manageable.</p>
+        <p style="margin-top:0.8rem;font-size:0.95rem;color:#D4E8C2;">
+        🏆 <strong>Tree City USA</strong> — Phoenixville has held Tree City USA designation
+        from the Arbor Day Foundation for 18 consecutive years, recognizing the borough's
+        ongoing commitment to urban forest management.</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -405,11 +409,12 @@ with page_about:
         """)
 
         st.markdown("""
-        <div class="callout-box-red">
-        <strong>🚨 Ash tree alert</strong><br>
-        The 2022 inventory includes 42 ash trees (<em>Fraxinus</em> spp.). Emerald Ash Borer
-        has been confirmed in Chester County. Many of these trees may be dead or dying.
-        Field verification is a priority.
+        <div class="callout-box">
+        <strong>🌳 Ash tree management</strong><br>
+        Phoenixville adopted a formal EAB Management Plan in 2016. Ten Bridge St. ash trees
+        were removed and replaced; 24 remaining high-value trees have been treated with
+        Tree-äge insecticide on a 2-year cycle through 2024. Field verification of treated
+        trees is a near-term priority now that the treatment program has concluded.
         </div>
         """, unsafe_allow_html=True)
 
@@ -892,11 +897,18 @@ with page_decisions:
         """)
 
         st.markdown("""
-        <div class="callout-box-red">
-        <strong>🚨 Ash trees requiring field verification</strong><br>
-        42 ash trees (<em>Fraxinus</em> spp.) remain in the inventory as Alive.
-        With EAB confirmed in Chester County, each should be assessed for decline
-        before the next planting season.
+        <div class="callout-box">
+        <strong>🌳 Ash Tree Management — Active Program</strong><br>
+        Phoenixville adopted a formal EAB Management Plan in 2016 (Option D — Selective
+        Management). Of the 34 public ash trees inventoried at the time:
+        <ul>
+        <li><strong>10 Bridge St. ash trees</strong> were preemptively removed and replaced
+        with non-host species</li>
+        <li><strong>24 high-value trees</strong> on Mill St., Main St., Gay St., and elsewhere
+        have been treated with Tree-äge systemic insecticide on a 2-year cycle through 2024</li>
+        </ul>
+        The 8-year treatment program has now concluded. Field verification of treated trees
+        is a near-term priority to assess current condition and determine next steps.
         </div>
         """, unsafe_allow_html=True)
 
