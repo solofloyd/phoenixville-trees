@@ -1,0 +1,735 @@
+source,year,season,species,size,address,street,latitude,longitude,dbh,condition,status,year_removed,year_pruned,origin,fid_source,is_backup,overhead_wires,notes
+Historical (pre-2019),2009,,Amazing Grace,,650 TAYLOR ST,TAYLOR,40.1391624,-75.52475875,4.099999905,Good,Alive,,,Ornamental,71.0,False,,
+Historical (pre-2019),2009,,Canada Red Chokecherry,,232 ANN ST,ANN,40.13982532,-75.51851074,6.300000191,Good,Alive,,,Ornamental,681.0,False,,
+Historical (pre-2019),2009,,Canada Red Chokecherry,,232 ANN ST,ANN,40.13980291,-75.51858235,6.300000191,Good,Alive,,,Ornamental,682.0,False,,
+Historical (pre-2019),2009,,Canada Red Chokecherry,,232 ANN ST,ANN,40.13978169,-75.51866869,6.400000095,Good,Alive,,,Ornamental,683.0,False,,
+Historical (pre-2019),2009,,Canada Red Chokecherry,,637 NUTT RD,NUTT,40.13134949,-75.532672,4.5,Good,Alive,,,Ornamental,339.0,False,,
+Historical (pre-2019),2009,,Canada Red Chokecherry,,637 NUTT RD,NUTT,40.13137406,-75.53274981,3.299999952,Good,Alive,,,Ornamental,340.0,False,,
+Historical (pre-2019),2009,,European Hornbeam,,527 VANDERSLICE ST,VANDERSLICE,40.13657876,-75.52241964,4.400000095,Good,Alive,,,Ornamental,96.0,False,,
+Historical (pre-2019),2009,,European Hornbeam,,339 HIGH ST,HIGH,40.13804352,-75.51807964,4.300000191,Good,Alive,,,Ornamental,981.0,False,,
+Historical (pre-2019),2009,,Flame Amur Maple,,242 FIRST AV,FIRST,40.1291459,-75.51636683,3.799999952,Good,Alive,,,Native,105.0,False,,
+Historical (pre-2019),2009,,Flame Amur Maple,,603 NUTT RD,NUTT,40.13083177,-75.53131267,3.799999952,Good,Alive,,,Native,134.0,False,,
+Historical (pre-2019),2009,,Flame Amur Maple,,613 NUTT RD,NUTT,40.13102538,-75.53181948,2.099999905,Fair,Alive,,,Native,336.0,False,,
+Historical (pre-2019),2009,,Flame Amur Maple,,607 NUTT RD,NUTT,40.13089678,-75.53149728,1.899999976,Good,Alive,,,Native,337.0,False,,
+Historical (pre-2019),2009,,Flame Amur Maple,,615 NUTT RD,NUTT,40.13109732,-75.53201679,3.5,Good,Alive,,,Native,414.0,False,,
+Historical (pre-2019),2009,,Flame Amur Maple,,232 ANN ST,ANN,40.1398678,-75.51842432,3.700000048,Good,Alive,,,Ornamental,680.0,False,,
+Historical (pre-2019),2009,,Green Vase Zelkova,,7 CITY LINE AV,CITY LINE,40.11876676,-75.516291,3.700000048,Good,Alive,,,Ornamental,318.0,False,,
+Historical (pre-2019),2009,,Green Vase Zelkova,,1103 LANE AV,LANE,40.12370012,-75.52298466,4.300000191,Good,Alive,,,Native,520.0,False,,
+Historical (pre-2019),2009,,Green Vase Zelkova,,1101 PARADISE ST,PARADISE,40.12741769,-75.5352029,2.200000048,Good,Alive,,,Ornamental,996.0,False,,
+Historical (pre-2019),2009,,Green Vase Zelkova,,1101 PARADISE ST,PARADISE,40.12732448,-75.53526264,2.099999905,Good,Alive,,,Ornamental,997.0,False,,
+Historical (pre-2019),2009,,Green Vase Zelkova,,1101 PARADISE ST,PARADISE,40.12745477,-75.53470875,2.200000048,Good,Alive,,,Ornamental,998.0,False,,
+Historical (pre-2019),2009,,Green Vase Zelkova,,1101 PARADISE ST,PARADISE,40.12735921,-75.53475965,2.400000095,Good,Alive,,,Ornamental,999.0,False,,
+Historical (pre-2019),2009,,Green Vase Zelkova,,1101 PARADISE ST,PARADISE,40.12725735,-75.53482852,2.200000048,Good,Alive,,,Ornamental,1000.0,False,,
+Historical (pre-2019),2009,,Green Vase Zelkova,,1101 PARADISE ST,PARADISE,40.12704416,-75.53423772,1.5,Good,Alive,,,Ornamental,1001.0,False,,
+Historical (pre-2019),2009,,Green Vase Zelkova,,1101 PARADISE ST,PARADISE,40.12719989,-75.53411519,2.0,Good,Alive,,,Ornamental,1002.0,False,,
+Historical (pre-2019),2009,,Ivory Silk Japanese Lilac,,324 EMMETT ST,EMMETT,40.13998999,-75.51792421,2.200000048,Good,Alive,,,Native,352.0,False,,
+Historical (pre-2019),2009,,Ivory Silk Japanese Lilac,,212 DAYTON ST,DAYTON,40.14071421,-75.51536193,2.0,Good,Alive,,,Native,696.0,False,,
+Historical (pre-2019),2009,,Ivory Silk Japanese Lilac,,322 EMMETT ST,EMMETT,40.14000528,-75.51787259,2.700000048,Good,Alive,,,Native,910.0,False,,
+Historical (pre-2019),2009,,Ivory Silk Japanese Lilac,,322 EMMETT ST,EMMETT,40.14003203,-75.51778651,2.0,Good,Alive,,,Native,911.0,False,,
+Historical (pre-2019),2009,,Malus Spring Snow,,212 EMMETT ST,EMMETT,40.14043974,-75.5163341,3.099999905,Good,Alive,,,Ornamental,353.0,False,,
+Historical (pre-2019),2009,,Malus Spring Snow,,212 EMMETT ST,EMMETT,40.14046246,-75.51625458,3.599999905,Good,Alive,,,Ornamental,354.0,False,,
+Historical (pre-2019),2009,,Malus Spring Snow,,238 SOUTH ST,SOUTH,40.14048395,-75.51617403,4.099999905,Good,Alive,,,Ornamental,912.0,False,,
+Historical (pre-2019),2009,,Malus Spring Snow,,238 SOUTH ST,SOUTH,40.14050405,-75.51609375,5.099999905,Good,Alive,,,Ornamental,913.0,False,,
+Historical (pre-2019),2009,,Malus Spring Snow,,238 SOUTH ST,SOUTH,40.1405309,-75.51600189,4.0,Good,Alive,,,Ornamental,914.0,False,,
+Historical (pre-2019),2009,,Red Maple,,212 DAYTON ST,DAYTON,40.14073557,-75.51528184,5.0,Good,Alive,,,Native,697.0,False,,
+Historical (pre-2019),2009,,Red Maple,,212 DAYTON ST,DAYTON,40.1407597,-75.51519736,4.800000191,Good,Alive,,,Native,698.0,False,,
+Historical (pre-2019),2009,,Serviceberry,,623 NUTT RD,NUTT,40.13112648,-75.53210425,1.899999976,Good,Alive,,,Native,264.0,False,,
+Historical (pre-2019),2009,,Serviceberry,,609 NUTT RD,NUTT,40.1309328,-75.53159635,1.399999976,Good,Alive,,,Native,338.0,False,,
+Historical (pre-2019),2009,,Serviceberry,,615 NUTT RD,NUTT,40.13107343,-75.53195901,3.0,Good,Alive,,,Native,413.0,False,,
+Historical (pre-2019),2009,,Valley Forge Elm,,225 VIRGINIA AV,VIRGINIA,40.12140657,-75.51610262,8.399999619,Good,Alive,,,Native,141.0,False,,
+Historical (pre-2019),2009,,Valley Forge Elm,,225 VIRGINIA AV,VIRGINIA,40.12135996,-75.515996,11.39999962,Good,Alive,,,Native,142.0,False,,
+Historical (pre-2019),2009,,Willow Oak,,220 VIRGINIA AV,VIRGINIA,40.12146492,-75.51655205,6.199999809,Good,Alive,,,Ornamental,184.0,False,,
+Historical (pre-2019),2009,,Willow Oak,,235 VIRGINIA AV,VIRGINIA,40.1218495,-75.51723506,7.199999809,Good,Alive,,,Ornamental,422.0,False,,
+Historical (pre-2019),2009,,Willow Oak,,229 VIRGINIA AV,VIRGINIA,40.12154577,-75.51645963,7.599999905,Good,Alive,,,Ornamental,510.0,False,,
+Historical (pre-2019),2009,,Willow Oak,,229 VIRGINIA AV,VIRGINIA,40.12159197,-75.51657553,7.199999809,Good,Alive,,,Ornamental,511.0,False,,
+Historical (pre-2019),2009,,Willow Oak,,210 VIRGINIA AV,VIRGINIA,40.12120764,-75.51589926,4.099999905,Good,Alive,,,Ornamental,925.0,False,,
+Historical (pre-2019),2010,,Amazing Grace,,,,40.13479313,-75.51875195,3.599999905,Good,Alive,,,Ornamental,284.0,False,,
+Historical (pre-2019),2010,,Amazing Grace,,401 MAIN ST,MAIN,40.12856578,-75.51080117,1.700000048,Good,Alive,,,Ornamental,732.0,False,,
+Historical (pre-2019),2010,,Amazing Grace,,401 MAIN ST,MAIN,40.12866983,-75.51319613,3.299999952,Good,Removed,,,Ornamental,739.0,False,,
+Historical (pre-2019),2010,,American Elm,,55 N MAIN ST,MAIN,40.13768278,-75.51544959,3.900000095,Good,Alive,,,Native,530.0,False,,
+Historical (pre-2019),2010,,American Elm,,55 N MAIN ST,MAIN,40.13778492,-75.51546351,3.799999952,Good,Alive,,,Native,531.0,False,,
+Historical (pre-2019),2010,,American Elm,,55 N MAIN ST,MAIN,40.1377439,-75.51513267,3.799999952,Good,Alive,,,Ornamental,535.0,False,,
+Historical (pre-2019),2010,,American Elm,,55 N MAIN ST,MAIN,40.13769766,-75.51514288,4.0,Good,Alive,,,Ornamental,537.0,False,,
+Historical (pre-2019),2010,,American Elm,,401 MAIN ST,MAIN,40.12805478,-75.5127315,2.0,Good,Alive,,,Native,726.0,False,,
+Historical (pre-2019),2010,,Canada Red Chokecherry,,523 WASHINGTON AV,WASHINGTON,40.12901095,-75.52304137,2.099999905,Good,Alive,,,Ornamental,101.0,False,,
+Historical (pre-2019),2010,,Cherry,,227 FOURTH AV,FOURTH,40.12647387,-75.51493323,2.099999905,Good,Alive,,2018.0,Native,567.0,False,,
+Historical (pre-2019),2010,,Greenspire Linden,,130 FOURTH AV,FOURTH,40.12659574,-75.51177361,4.0,Good,Alive,,,Native,193.0,False,,
+Historical (pre-2019),2010,,Greenspire Linden,,252 MORGAN ST APT 105,MORGAN,40.13077188,-75.51786657,3.900000095,Good,Alive,,,Native,451.0,False,,
+Historical (pre-2019),2010,,Greenspire Linden,,153 GAY ST,GAY,40.13016451,-75.51776098,5.199999809,Good,Alive,,,Native,560.0,False,,
+Historical (pre-2019),2010,,Greenspire Linden,,401 MAIN ST,MAIN,40.12849729,-75.51095332,2.400000095,Good,Alive,,,Ornamental,731.0,False,,
+Historical (pre-2019),2010,,Greenspire Linden,,401 MAIN ST,MAIN,40.12876896,-75.5109499,2.599999905,Good,Alive,,,Ornamental,733.0,False,,
+Historical (pre-2019),2010,,Greenspire Linden,,822 GAY ST,GAY,40.12317239,-75.51755322,4.599999905,Good,Alive,,,Ornamental,894.0,False,,
+Historical (pre-2019),2010,,Greenspire Linden,,237 FOURTH AV,FOURTH,40.126386,-75.51540019,2.0,Fair,Alive,,2018.0,Ornamental,57.0,False,,
+Historical (pre-2019),2010,,Honey Locust,,650 TAYLOR ST,TAYLOR,40.13906402,-75.52472551,6.199999809,Good,Alive,,,Native,70.0,False,,
+Historical (pre-2019),2010,,Honey Locust,,280 GRIFFEN ST,GRIFFEN,40.12293765,-75.51755907,4.199999809,Good,Alive,,,Ornamental,86.0,False,,
+Historical (pre-2019),2010,,Honey Locust,,,,40.13432405,-75.51980547,3.900000095,Good,Alive,,,Native,155.0,False,,
+Historical (pre-2019),2010,,Honey Locust,,,,40.13455131,-75.51929764,3.099999905,Good,Alive,,,Native,157.0,False,,
+Historical (pre-2019),2010,,Honey Locust,,,,40.13466099,-75.5187295,4.400000095,Good,Alive,,,Native,158.0,False,,
+Historical (pre-2019),2010,,Honey Locust,,,,40.1346184,-75.51885884,3.799999952,Good,Alive,,,Native,159.0,False,,
+Historical (pre-2019),2010,,Honey Locust,,5021 SWAN DR,SWAN,40.14990371,-75.51534735,3.0,Good,Alive,,,Native,237.0,False,,
+Historical (pre-2019),2010,,Honey Locust,,,,40.13461046,-75.51918077,3.5,Good,Alive,,,Native,283.0,False,,
+Historical (pre-2019),2010,,Honey Locust,,601 FRANKLIN AV,FRANKLIN,40.1431692,-75.52078382,2.799999952,Good,Alive,,,Native,602.0,False,,
+Historical (pre-2019),2010,,Honey Locust,,822 GAY ST,GAY,40.12336109,-75.51803721,4.400000095,Good,Alive,,,Ornamental,892.0,False,,
+Historical (pre-2019),2010,,Ivory Silk Japanese Lilac,,260 WALNUT ST,WALNUT,40.13140313,-75.51770802,2.599999905,Good,Alive,,,Ornamental,185.0,False,,
+Historical (pre-2019),2010,,Ivory Silk Japanese Lilac,,257 WALNUT ST,WALNUT,40.1314532,-75.51752533,2.299999952,Good,Alive,,,Ornamental,188.0,False,,
+Historical (pre-2019),2010,,Ivory Silk Japanese Lilac,,262 WALNUT ST,WALNUT,40.13140162,-75.51774207,2.799999952,Good,Alive,,,Ornamental,370.0,False,,
+Historical (pre-2019),2010,,Ivory Silk Japanese Lilac,,239 FOURTH AV,FOURTH,40.1263716,-75.51547208,2.299999952,Good,Alive,,2018.0,Ornamental,463.0,False,,
+Historical (pre-2019),2010,,Ivory Silk Japanese Lilac,,130 FOURTH AV,FOURTH,40.12669279,-75.51180043,4.5,Good,Alive,,,Native,192.0,False,,
+Historical (pre-2019),2010,,Ivory Silk Japanese Lilac,,527 WASHINGTON AV,WASHINGTON,40.12897137,-75.52319133,4.800000191,Good,Alive,,,Ornamental,564.0,False,,
+Historical (pre-2019),2010,,Ivory Silk Japanese Lilac,,525 WASHINGTON AV,WASHINGTON,40.12899189,-75.52311275,2.700000048,Good,Alive,,,Ornamental,565.0,False,,
+Historical (pre-2019),2010,,Ivory Silk Japanese Lilac,,547 WASHINGTON AV,WASHINGTON,40.12887344,-75.52358677,2.200000048,Good,Alive,,,Ornamental,566.0,False,,
+Historical (pre-2019),2010,,Ivory Silk Japanese Lilac,,229 FOURTH AV,FOURTH,40.12645474,-75.51502589,2.0,Good,Alive,,2018.0,Ornamental,462.0,False,,
+Historical (pre-2019),2010,,Ivory Silk Japanese Lilac,,225 FOURTH AV,FOURTH,40.1264858,-75.51485806,2.200000048,Fair,Alive,,2018.0,Ornamental,297.0,False,,
+Historical (pre-2019),2010,,Malus Spring Snow,,235 FOURTH AV,FOURTH,40.12640567,-75.51530309,2.0,Good,Alive,,2018.0,Ornamental,585.0,False,,
+Historical (pre-2019),2010,,Malus Spring Snow,,233 FOURTH AV,FOURTH,40.1264245,-75.51520998,2.200000048,Good,Alive,,2018.0,Ornamental,941.0,False,,
+Historical (pre-2019),2010,,Malus Spring Snow,,231 FOURTH AV,FOURTH,40.1264399,-75.51512556,2.0,Good,Alive,,2018.0,Ornamental,942.0,False,,
+Historical (pre-2019),2010,,Malus Spring Snow,,934 W BRIDGE ST,BRIDGE,40.12678235,-75.53113726,3.299999952,Good,Alive,,,Ornamental,954.0,False,,
+Historical (pre-2019),2010,,Maple,,318 MAIN ST,MAIN,40.12847644,-75.51509672,4.699999809,Good,Alive,,,Native,419.0,False,,
+Historical (pre-2019),2010,,Oak,,601 FRANKLIN AV,FRANKLIN,40.1437458,-75.51920374,2.299999952,Good,Alive,,,Native,603.0,False,,
+Historical (pre-2019),2010,,Oak,,401 MAIN ST,MAIN,40.12886632,-75.51214604,2.900000095,Fair,Alive,,,Native,737.0,False,,
+Historical (pre-2019),2010,,Red Maple,,401 MAIN ST,MAIN,40.12863529,-75.5122452,2.900000095,Good,Alive,,,Native,736.0,False,,
+Historical (pre-2019),2010,,Red Maple,,401 MAIN ST,MAIN,40.12838809,-75.51240108,1.700000048,,Alive,,,Native,734.0,False,,
+Historical (pre-2019),2010,,Red Maple,,5021 SWAN DR,SWAN,40.14994636,-75.51510772,2.5,Good,Alive,,,Native,238.0,False,,
+Historical (pre-2019),2010,,Red Maple,,130 FOURTH AV,FOURTH,40.12696726,-75.51177703,3.299999952,Good,Alive,,,Native,191.0,False,,
+Historical (pre-2019),2010,,Red Maple,,1233 MADISON AV,MADISON,40.1239531,-75.53120618,5.5,Good,Alive,,,Native,314.0,False,,
+Historical (pre-2019),2010,,Red Maple,,252 MORGAN ST APT 105,MORGAN,40.13062882,-75.51784161,3.200000048,Good,Alive,,,Native,452.0,False,,
+Historical (pre-2019),2010,,Red Maple,,252 MORGAN ST APT 105,MORGAN,40.13037717,-75.5177992,4.900000095,Good,Alive,,,Native,455.0,False,,
+Historical (pre-2019),2010,,Red Maple,,252 MORGAN ST APT 105,MORGAN,40.13029491,-75.51778415,5.0,Good,Alive,,,Native,456.0,False,,
+Historical (pre-2019),2010,,Red Maple,,501 FRANKLIN AV,FRANKLIN,40.14317655,-75.51955348,2.5,Good,Alive,,,Native,919.0,False,,
+Historical (pre-2019),2010,,Red Oak,,252 MORGAN ST APT 105,MORGAN,40.13054423,-75.51782635,5.0,Good,Alive,,,Native,453.0,False,,
+Historical (pre-2019),2010,,Red Sunset Maple,,426 CARLISLE AV,CARLISLE,40.12165333,-75.52480985,4.199999809,Good,Alive,,,Ornamental,198.0,False,,
+Historical (pre-2019),2010,,Red Sunset Maple,,822 GAY ST,GAY,40.12319963,-75.51763081,13.69999981,Good,Alive,,,Ornamental,893.0,False,,
+Historical (pre-2019),2010,,Red Sunset Maple,,409 VIRGINIA AV,VIRGINIA,40.12338954,-75.52106747,5.099999905,Good,Alive,,,Ornamental,897.0,False,,
+Historical (pre-2019),2010,,Redbud,,55 N MAIN ST,MAIN,40.13785716,-75.5154074,2.599999905,Good,Alive,,,Native,532.0,False,,
+Historical (pre-2019),2010,,Redbud,,55 N MAIN ST,MAIN,40.13772416,-75.5150823,2.400000095,Good,Alive,,,Native,536.0,False,,
+Historical (pre-2019),2010,,Redbud,,221 FOURTH AV,FOURTH,40.12651544,-75.51468544,2.299999952,Fair,Alive,,2018.0,Ornamental,943.0,False,,
+Historical (pre-2019),2010,,Redbud,,221 FOURTH AV,FOURTH,40.12650832,-75.51475667,2.099999905,Good,Alive,,2018.0,Ornamental,944.0,False,,
+Historical (pre-2019),2010,,Serviceberry,,401 MAIN ST,MAIN,40.12810659,-75.51237347,2.5,Good,Alive,,,Native,727.0,False,,
+Historical (pre-2019),2010,,Shumard Oak,,401 MAIN ST,MAIN,40.12787314,-75.51315755,2.200000048,Poor,Removed,,,Ornamental,729.0,False,,
+Historical (pre-2019),2010,,Sweetgum,,55 N MAIN ST,MAIN,40.13762221,-75.51537753,3.599999905,Good,Alive,,,Ornamental,541.0,False,,
+Historical (pre-2019),2010,,Sweetgum,,55 N MAIN ST,MAIN,40.13764499,-75.51518788,2.900000095,Poor,Alive,,,Native,538.0,False,,
+Historical (pre-2019),2010,,Unknown Hardwood,,401 MAIN ST,MAIN,40.12813174,-75.51226235,2.400000095,Good,Alive,,,Ornamental,728.0,False,,
+Historical (pre-2019),2010,,White Oak,,401 MAIN ST,MAIN,40.12850666,-75.51241135,2.200000048,Poor,Removed,,,Native,735.0,False,,
+Historical (pre-2019),2010,,Zelkova,,55 N MAIN ST,MAIN,40.13782832,-75.51532561,3.299999952,Good,Alive,,,Ornamental,533.0,False,,
+Historical (pre-2019),2010,,Zelkova,,55 N MAIN ST,MAIN,40.13781071,-75.51524115,3.900000095,Good,Alive,,,Ornamental,534.0,False,,
+Historical (pre-2019),2011,,American Elm,,401 MAIN ST,MAIN,40.12879157,-75.51242744,3.200000048,Good,Alive,,,Native,738.0,False,,
+Historical (pre-2019),2011,,American Elm,,401 MAIN ST,MAIN,40.128344,-75.51325254,2.900000095,Good,Alive,,,Native,740.0,False,,
+Historical (pre-2019),2011,,American Elm,,401 MAIN ST,MAIN,40.12846702,-75.51401259,2.799999952,Good,Alive,,,Native,741.0,False,,
+Historical (pre-2019),2011,,Flowering Cherry,,936 W BRIDGE ST,BRIDGE,40.12674064,-75.53121401,2.400000095,Good,Alive,,,Ornamental,577.0,False,,
+Historical (pre-2019),2011,,Green Mountain Maple,,230 VIRGINIA AV,VIRGINIA,40.1217095,-75.5171504,4.0,Good,Alive,,,Ornamental,509.0,False,,
+Historical (pre-2019),2011,,Greenspire Linden,,401 MAIN ST,MAIN,40.12849756,-75.51112053,2.099999905,Good,Alive,,,Ornamental,730.0,False,,
+Historical (pre-2019),2011,,Hawthorn,,319 GAY ST,GAY,40.12825806,-75.5171594,2.0,Good,Alive,,,Ornamental,273.0,False,,
+Historical (pre-2019),2011,,Honey Locust,,510 STARR ST,STARR,40.12783382,-75.51049254,3.700000048,Good,Alive,,,Native,441.0,False,,
+Historical (pre-2019),2011,,Honey Locust,,110 THIRD AV,THIRD,40.12790715,-75.51051893,3.299999952,Poor,Alive,,,Native,554.0,False,,
+Historical (pre-2019),2011,,Ivory Silk Japanese Lilac,,258 WALNUT ST,WALNUT,40.13139381,-75.51756897,2.599999905,Good,Alive,,,Ornamental,447.0,False,,
+Historical (pre-2019),2011,,Ivory Silk Japanese Lilac,,702 MAIN ST,MAIN,40.12555452,-75.51383818,1.799999952,Good,Alive,,,Ornamental,242.0,False,,
+Historical (pre-2019),2011,,Ivory Silk Japanese Lilac,,702 MAIN ST,MAIN,40.12551166,-75.51404772,1.899999976,Good,Alive,,,Ornamental,243.0,False,,
+Historical (pre-2019),2011,,London Plane,,435 HIGH ST,HIGH,40.13824865,-75.52029482,2.099999905,Good,Alive,,,Native,145.0,False,,
+Historical (pre-2019),2011,,London Plane,,435 HIGH ST,HIGH,40.13820832,-75.5205578,1.899999976,Good,Alive,,,Native,146.0,False,,
+Historical (pre-2019),2011,,Prairiefire Crabappl,,519 WASHINGTON AV,WASHINGTON,40.12903646,-75.52291131,3.0,Good,Alive,,,Ornamental,459.0,False,,
+Historical (pre-2019),2011,,Prairiefire Crabappl,,300 FAIRVIEW ST,FAIRVIEW,40.1381065,-75.52198844,2.599999905,Good,Alive,,,Native,902.0,False,,
+Historical (pre-2019),2011,,Prairiefire Crabappl,,300 FAIRVIEW ST,FAIRVIEW,40.13809526,-75.52205863,2.200000048,Fair,Alive,,,Native,903.0,False,,
+Historical (pre-2019),2011,,Prairiefire Crabappl,,400 GAY ST,GAY,40.12792628,-75.51738862,1.700000048,Good,Dead,2013.0,,Ornamental,182.0,False,,
+Historical (pre-2019),2011,,Red Maple,,306 GAY ST,GAY,40.12867181,-75.5174343,3.900000095,Good,Alive,,,Native,81.0,False,,
+Historical (pre-2019),2011,,Red Maple,,318 GAY ST,GAY,40.12827544,-75.51731547,5.800000191,Good,Alive,,,Native,345.0,False,,
+Historical (pre-2019),2011,,Red Maple,,391 ANDERSON AV,ANDERSON,40.12151127,-75.51942993,4.599999905,Good,Alive,,,Native,139.0,False,,
+Historical (pre-2019),2011,,Red Maple,,252 MORGAN ST APT 105,MORGAN,40.13046042,-75.51781517,5.300000191,Good,Alive,,,Native,454.0,False,,
+Historical (pre-2019),2011,,Red Sunset Maple,,110 THIRD AV,THIRD,40.12809829,-75.51058002,2.5,Good,Alive,,,Ornamental,552.0,False,,
+Historical (pre-2019),2011,,Red Sunset Maple,,110 THIRD AV,THIRD,40.12798254,-75.51054476,2.5,Good,Alive,,,Ornamental,553.0,False,,
+Historical (pre-2019),2011,,Redbud,,200 WASHINGTON AV,WASHINGTON,40.13035651,-75.51545928,4.0,Good,Alive,,,Ornamental,98.0,False,,
+Historical (pre-2019),2011,,Redbud,,202 WASHINGTON AV,WASHINGTON,40.13030536,-75.51571444,3.700000048,Good,Alive,,,Ornamental,450.0,False,,
+Historical (pre-2019),2011,,Silverbell,,246 SECOND AV,SECOND,40.12816711,-75.51615265,2.0,Good,Alive,,,Ornamental,23.0,False,,
+Historical (pre-2019),2011,,Silverbell,,236 SECOND AV,SECOND,40.1282477,-75.51574051,3.799999952,Good,Alive,,,Ornamental,269.0,False,,
+Historical (pre-2019),2011,,Silverbell,,237 SECOND AV,SECOND,40.12833165,-75.5158963,2.700000048,Good,Alive,,,Ornamental,270.0,False,,
+Historical (pre-2019),2011,,Silverbell,,237 SECOND AV,SECOND,40.1283159,-75.51597923,3.5,Good,Alive,,,Ornamental,271.0,False,,
+Historical (pre-2019),2011,,Silverbell,,238 SECOND AV,SECOND,40.12823249,-75.51581816,2.900000095,Good,Alive,,,Ornamental,442.0,False,,
+Historical (pre-2019),2011,,Silverbell,,244 SECOND AV,SECOND,40.12820519,-75.51596994,2.099999905,Good,Alive,,,Ornamental,556.0,False,,
+Historical (pre-2019),2011,,Silverbell,,300 FAIRVIEW ST,FAIRVIEW,40.13853109,-75.5220114,2.599999905,Good,Alive,,,Ornamental,904.0,False,,
+Historical (pre-2019),2011,,Willow Oak,,222 VIRGINIA AV,VIRGINIA,40.12151779,-75.51665783,4.199999809,Good,Alive,,,Ornamental,285.0,False,,
+Historical (pre-2019),2011,,Willow Oak,,850 MAIN ST,MAIN,40.12130463,-75.51585177,10.19999981,Good,Alive,,,Ornamental,420.0,False,,
+Historical (pre-2019),2013,,Greenspire Linden,,310 MORRIS ST,MORRIS,40.1242865,-75.51824791,2.0,Good,Alive,,,Ornamental,2376.0,False,,
+Historical (pre-2019),2013,,Ivory Silk Japanese Lilac,,225 CHURCH ST,CHURCH,40.13280243,-75.51687639,1.600000024,Good,Alive,,,Ornamental,1825.0,False,,
+Historical (pre-2019),2013,,Ivory Silk Japanese Lilac,,352 Second Ave,SECOND,40.127544,-75.518993,2.0,Good,Alive,,,Ornamental,2375.0,False,,
+Historical (pre-2019),2013,,Kentucky Coffeetree,,Reeves Park,Near Third Ave.,40.128388,-75.510755,3.0,Good,Alive,,,Native,2371.0,False,,
+Historical (pre-2019),2013,,Serviceberry,,294 GRIFFEN ST,GRIFFEN,40.12374059,-75.51928225,2.599999905,Good,Alive,,,Native,1689.0,False,,
+Historical (pre-2019),2013,,Serviceberry,,296 GRIFFEN ST,GRIFFEN,40.12385365,-75.51950318,2.5,Good,Alive,,,Native,1941.0,False,,
+Historical (pre-2019),2013,,Serviceberry,,296 GRIFFEN ST,GRIFFEN,40.12381775,-75.51940662,2.0,Good,Alive,,,Native,1942.0,False,,
+Historical (pre-2019),2013,,Serviceberry,,110 CHURCH ST,CHURCH,40.13277182,-75.51622216,2.0,Good,Alive,,,Native,2372.0,False,,
+Historical (pre-2019),2013,,Serviceberry,,110 CHURCH ST,CHURCH,40.13275804,-75.51630646,2.0,Good,Alive,,,Native,2373.0,False,,
+Historical (pre-2019),2013,,Serviceberry,,323 SECOND AV,SECOND,40.12784406,-75.5184539,2.0,Good,Alive,,,Native,2374.0,False,,
+Historical (pre-2019),2013,,Serviceberry,,400 GAY ST,GAY,40.12788975,-75.51761291,2.0,Good,Alive,,,Native,2378.0,False,,
+Historical (pre-2019),2013,,Serviceberry,,400 GAY ST,GAY,40.12792628,-75.51738862,2.0,Good,Alive,,,Native,2377.0,False,,
+Historical (pre-2019),2013,,Serviceberry,,256 WALNUT ST,WALNUT,40.13142049,-75.51739346,1.5,Good,Alive,,,Native,2303.0,False,,
+Historical (pre-2019),2014,,Allegheny Serviceberry,,1000 Cherry St.,CHERRY,40.125467,-75.530634,2.0,Good,Alive,,,Native,2415.0,False,,
+Historical (pre-2019),2014,,Allegheny Serviceberry,,1001 Gay St.,GAY,40.121895,-75.518112,2.0,Good,Alive,,,Native,2410.0,False,,
+Historical (pre-2019),2014,,Allegheny Serviceberry,,1001 Gay St.,GAY,40.121755,-75.518213,2.0,Good,Alive,,,Native,2409.0,False,,
+Historical (pre-2019),2014,,Allegheny Serviceberry,,1025 Gay St.,GAY,40.121556,-75.518347,2.0,Good,Alive,,,Native,2411.0,False,,
+Historical (pre-2019),2014,,Allegheny Serviceberry,,1025 Gay St.,GAY,40.121448,-75.518391,2.0,Good,Alive,,,Native,2412.0,False,,
+Historical (pre-2019),2014,,Allegheny Serviceberry,,335 Church St.,CHURCH,40.132544,-75.519576,2.0,Good,Alive,,,Native,2396.0,False,,
+Historical (pre-2019),2014,,Allegheny Serviceberry,,335 Church St.,CHURCH,40.132407,-75.519843,2.0,Good,Alive,,,Native,2397.0,False,,
+Historical (pre-2019),2014,,Allegheny Serviceberry,,310 Hall St.,HALL,40.131768,-75.518915,2.0,Good,Alive,,,Native,2395.0,False,,
+Historical (pre-2019),2014,,Allegheny Serviceberry,,202 Washington Ave.,WASHINGTON,40.130302,-75.515807,2.0,Good,Alive,,,Native,2391.0,False,,
+Historical (pre-2019),2014,,Allegheny Serviceberry,,370 Washington Ave.,WASHINGTON,40.129345,-75.520836,2.0,Good,Alive,,,Native,2394.0,False,,
+Historical (pre-2019),2014,,Crabapple,,345 Church St.,CHURCH,40.132512,-75.519921,2.0,Good,Alive,,,Ornamental,2398.0,False,,
+Historical (pre-2019),2014,,Crabapple,,905 Gay St.,GAY,40.122548,-75.517677,2.0,Good,Alive,,,Ornamental,2407.0,False,,
+Historical (pre-2019),2014,,Crabapple,,905 Gay St.,GAY,40.122508,-75.517703,2.0,Good,Alive,,,Ornamental,2408.0,False,,
+Historical (pre-2019),2014,,Crabapple,,38 Pennsylvania Ave.,PENNSYLVANIA,40.128557,-75.529606,2.0,Good,Alive,,,Ornamental,2416.0,False,,
+Historical (pre-2019),2014,,Crabapple,,324 Washington Ave.,WASHINGTON,40.129703,-75.51897,2.0,Good,Alive,,,Ornamental,2392.0,False,,
+Historical (pre-2019),2014,,Crabapple,,324 Washington Ave.,WASHINGTON,40.1298,-75.518987,2.0,Good,Alive,,,Ornamental,2393.0,False,,
+Historical (pre-2019),2014,,Honey Locust,,392 Anderson Ave.,ANDERSON,40.12167,-75.520124,2.0,Good,Alive,,,Native,2413.0,False,,
+Historical (pre-2019),2014,,Honey Locust,,392 Anderson Ave.,ANDERSON,40.121727,-75.520265,2.0,Good,Alive,,,Native,2414.0,False,,
+Historical (pre-2019),2014,,Honey Locust,,Friendship Field,FILLMORE,40.143429,-75.5192,2.0,Good,Alive,,,Native,2379.0,False,,
+Historical (pre-2019),2014,,Red Maple,,,,40.134395,-75.519686,2.0,Good,Alive,,,Native,2402.0,False,,
+Historical (pre-2019),2014,,Red Maple,,,,40.134557,-75.519302,2.0,Good,Alive,,,Native,2404.0,False,,
+Historical (pre-2019),2014,,Red Oak,,,FILLMORE,40.143355,-75.51949,2.0,Good,Alive,,,Native,2380.0,False,,
+Historical (pre-2019),2014,,Red Oak,,,FILLMORE,40.143247,-75.519838,2.0,Good,Alive,,,Native,2381.0,False,,
+Historical (pre-2019),2014,,Red Oak,,,FILLMORE,40.143127,-75.52029,2.0,Good,Alive,,,Native,2382.0,False,,
+Historical (pre-2019),2014,,Red Oak,,,FILLMORE,40.143084,-75.520469,2.0,Good,Alive,,,Native,2383.0,False,,
+Historical (pre-2019),2014,,Red Oak,,,FILLMORE,40.143031,-75.520684,2.0,Good,Alive,,,Native,2384.0,False,,
+Historical (pre-2019),2014,,Red Oak,,,FILLMORE,40.142973,-75.52088,2.0,Good,Alive,,,Native,2385.0,False,,
+Historical (pre-2019),2014,,Red Oak,,,FILLMORE,40.127856,-75.513298,2.0,Good,Alive,,,Native,2386.0,False,,
+Historical (pre-2019),2014,,Red Oak,,,FILLMORE,40.127874,-75.51318,2.0,Good,Alive,,,Native,2387.0,False,,
+Historical (pre-2019),2014,,Sugar Maple,,,,40.134116,-75.52012,2.0,Good,Alive,,,Native,2400.0,False,,
+Historical (pre-2019),2014,,Sugar Maple,,,,40.134321,-75.519812,2.0,Good,Alive,,,Native,2401.0,False,,
+Historical (pre-2019),2014,,Sugar Maple,,,,40.134446,-75.51957,2.0,Good,Alive,,,Native,2403.0,False,,
+Historical (pre-2019),2014,,Sugar Maple,,,,40.13467,-75.518932,2.0,Good,Alive,,,Native,2405.0,False,,
+Historical (pre-2019),2014,,Sugar Maple,,,THIRD,40.128071,-75.512099,2.0,Good,Alive,,,Native,2388.0,False,,
+Historical (pre-2019),2014,,Tulip Poplar,,,,40.134014,-75.520234,2.0,Good,Alive,,,Native,2399.0,False,,
+Historical (pre-2019),2014,,Tulip Poplar,,,,40.134647,-75.519249,2.0,Good,Alive,,,Native,2406.0,False,,
+Historical (pre-2019),2014,,Tulip Poplar,,,THIRD,40.128087,-75.511996,2.0,Good,Alive,,,Native,2389.0,False,,
+Historical (pre-2019),2014,,Tulip Poplar,,,THIRD,40.128187,-75.511917,2.0,Good,Alive,,,Native,2390.0,False,,
+Historical (pre-2019),2015,,Allegheny Serviceberry,,400 Gay St.,GAY,40.127911,-75.517517,2.0,Good,Alive,,,Native,2432.0,False,,
+Historical (pre-2019),2015,,American Hophornbeam,,129 FIRST AV,FIRST,40.12998189,-75.51257018,1.700000048,Good,Alive,,,Native,2055.0,False,,
+Historical (pre-2019),2015,,American Hophornbeam,,224 STARR ST,STARR,40.13019,-75.51142,1.700000048,Good,Alive,,,Native,1948.0,False,,
+Historical (pre-2019),2015,,American Hornbeam,,,,40.12997,-75.512591,2.0,Good,Alive,,,Native,2436.0,False,,
+Historical (pre-2019),2015,,American Hornbeam,,,,40.130192,-75.511432,2.0,Good,Alive,,,Native,2448.0,False,,
+Historical (pre-2019),2015,,American Hornbeam,,Second Ave.,SECOND,40.12912,-75.511147,2.0,Good,Alive,,,Native,2422.0,False,,
+Historical (pre-2019),2015,,American Hornbeam,,Second Ave.,SECOND,40.129091,-75.5111302,2.0,Good,Alive,,,Native,2423.0,False,,
+Historical (pre-2019),2015,,American Hornbeam,,Second Ave.,SECOND,40.129061,-75.511471,2.0,Good,Alive,,,Native,2424.0,False,,
+Historical (pre-2019),2015,,American Hornbeam,,Second Ave.,SECOND,40.12903,-75.511621,2.0,Good,Alive,,,Native,2425.0,False,,
+Historical (pre-2019),2015,,Crabapple,,119 FIRST AV,FIRST,"40.13005, ",-75.51213,1.600000024,Good,Alive,,,Ornamental,2199.0,False,,
+Historical (pre-2019),2015,,Crabapple,,100 FIRST AV,FIRST,40.13001,-75.51177,1.5,Good,Alive,,,Ornamental,1817.0,False,,
+Historical (pre-2019),2015,,Crabapple,,100 FIRST AV,FIRST,40.13007,-75.51152,2.099999905,Good,Alive,,,Ornamental,1818.0,False,,
+Historical (pre-2019),2015,,Crabapple,,100 FIRST AV,FIRST,40.13009,-75.51139,1.899999976,Good,Alive,,,Ornamental,1819.0,False,,
+Historical (pre-2019),2015,,Crabapple,,100 FIRST AV,FIRST,40.13003,-75.51121,1.700000048,Good,Alive,,,Ornamental,1820.0,False,,
+Historical (pre-2019),2015,,Crabapple,,,,40.130055,-75.512131,2.0,Good,Alive,,,Ornamental,2438.0,False,,
+Historical (pre-2019),2015,,Crabapple,,,,40.130017,-75.511782,2.0,Good,Alive,,,Ornamental,2440.0,False,,
+Historical (pre-2019),2015,,Crabapple,,,,40.130072,-75.511525,2.0,Good,Alive,,,Ornamental,2441.0,False,,
+Historical (pre-2019),2015,,Crabapple,,,,40.130097,-75.511395,2.0,Good,Alive,,,Ornamental,2442.0,False,,
+Historical (pre-2019),2015,,Crabapple,,,,40.130037,-75.511224,2.0,Good,Alive,,,Ornamental,2443.0,False,,
+Historical (pre-2019),2015,,Crabapple,,,,40.129928,-75.511187,2.0,Good,Alive,,,Ornamental,2444.0,False,,
+Historical (pre-2019),2015,,Crabapple,,,,40.129834,-75.511154,2.0,Good,Alive,,,Ornamental,2445.0,False,,
+Historical (pre-2019),2015,,Crabapple,,100 First Ave,FIRST,40.12992,-75.51118,1.5,fair,Alive,,,ornamental,2369.0,False,,
+Historical (pre-2019),2015,,Filbert,,Third Ave.,,40.128445,-75.510855,2.0,Good,Alive,,,Ornamental,2428.0,False,,
+Historical (pre-2019),2015,,Greenspire Linden,,121 FIRST AV,FIRST,40.13003,-75.51224,1.899999976,Good,Alive,,,Ornamental,1949.0,False,,
+Historical (pre-2019),2015,,Greenspire Linden,,117 FIRST AV,FIRST,40.13007,-75.51203,1.700000048,Good,Alive,,,Ornamental,2200.0,False,,
+Historical (pre-2019),2015,,Greenspire Linden,,224 STARR ST,STARR,40.13013,-75.51168,1.700000048,Good,Alive,,,Ornamental,1946.0,False,,
+Historical (pre-2019),2015,,Honey Locust,,420 Anderson Ave.,ANDERSON,40.122772,-75.522905,2.0,Good,Alive,,,Native,2430.0,False,,
+Historical (pre-2019),2015,,Honey Locust,,420 Anderson Ave.,ANDERSON,40.122734,-75.522812,2.0,Good,Alive,,,Native,2431.0,False,,
+Historical (pre-2019),2015,,Kousa Dogwood,,,,40.134296,-75.518418,2.0,Good,Removed,,,Ornamental,2450.0,False,,
+Historical (pre-2019),2015,,Kousa Dogwood,,,,40.134354,-75.518432,2.0,Good,Removed,,,Ornamental,2451.0,False,,
+Historical (pre-2019),2015,,Kousa Dogwood,,,,40.134414,-75.518442,2.0,Good,Removed,,,Ornamental,2452.0,False,,
+Historical (pre-2019),2015,,Kousa Dogwood,,,,40.134478,-75.518454,2.0,Good,Removed,,,Ornamental,2453.0,False,,
+Historical (pre-2019),2015,,Kousa Dogwood,,,,40.134541,-75.518456,2.0,Good,Removed,,,Ornamental,2454.0,False,,
+Historical (pre-2019),2015,,Linden,,224 STARR ST,STARR,40.13016,-75.51156,1.899999976,Good,Alive,,,Ornamental,1947.0,False,,
+Historical (pre-2019),2015,,Linden,,,,40.130033,-75.512246,2.0,Good,Alive,,,Native,2437.0,False,,
+Historical (pre-2019),2015,,Linden,,,,40.130075,-75.512037,2.0,Good,Alive,,,Native,2439.0,False,,
+Historical (pre-2019),2015,,Linden,,,,40.130145,-75.511686,2.0,Good,Alive,,,Native,2446.0,False,,
+Historical (pre-2019),2015,,Linden,,,,40.130166,-75.511568,2.0,Good,Alive,,,Native,2447.0,False,,
+Historical (pre-2019),2015,,Malus Royal Raindrops,,159 First Ave.,FIRST,40.129643,-75.514308,2.0,Good,Alive,,,Ornamental,2435.0,False,,
+Historical (pre-2019),2015,,Malus Royal Raindrops,,302 Main St.,MAIN,40.12939,-75.515097,2.0,Good,Alive,,,Ornamental,2433.0,False,,
+Historical (pre-2019),2015,,Malus Royal Raindrops,,256 Walnut St.,WALNUT,40.131415,-75.517585,2.0,Good,Alive,,,Ornamental,2449.0,False,,
+Historical (pre-2019),2015,,Malus Spring Snow,,Second Ave.,SECOND,40.129049,-75.511548,2.0,Good,Alive,,,Ornamental,2418.0,False,,
+Historical (pre-2019),2015,,Malus Spring Snow,,Second Ave.,SECOND,40.129014,-75.511717,2.0,Good,Alive,,,Ornamental,2417.0,False,,
+Historical (pre-2019),2015,,Malus Spring Snow,,Second Ave.,SECOND,40.129076,-75.511385,2.0,Good,Alive,,,Ornamental,2419.0,False,,
+Historical (pre-2019),2015,,Malus Spring Snow,,Second Ave.,SECOND,40.129107,-75.511232,2.0,Good,Alive,,,Ornamental,2420.0,False,,
+Historical (pre-2019),2015,,Malus Spring Snow,,Second Ave.,SECOND,40.129137,-75.511065,2.0,Good,Alive,,,Ornamental,2421.0,False,,
+Historical (pre-2019),2015,,Princeton Elm,,401 MAIN ST,MAIN,40.12838726,-75.51356403,3.0,Good,Alive,,,Native,859.0,False,,
+Historical (pre-2019),2015,,Red Maple,,Third Ave.,,40.128388,-75.510968,2.0,Good,Alive,,,Native,2427.0,False,,
+Historical (pre-2019),2015,,Sugar Maple,,Third Ave.,,40.128392,-75.510761,2.0,Good,Alive,,,Native,2426.0,False,,
+Historical (pre-2019),2015,,Sugar Maple,,Third Ave.,,40.128556,-75.51086,2.0,Good,Alive,,,Ornamental,2429.0,False,,
+Historical (pre-2019),2015,,Sugar Maple,,240 Virginia Ave.,VIRGINIA,40.121792,-75.517388,2.0,Good,Alive,,,Native,2434.0,False,,
+Historical (pre-2019),2016,,Allegheny Serviceberry,,232 Church St.,CHURCH,40.13267,-75.51716,2.0,Good,Alive,,,Native,2336.0,False,,
+Historical (pre-2019),2016,,Allegheny Serviceberry,,136 Jackson St.,Jackson St.,40.13168,-75.51471,2.0,Good,Alive,,,Native,2340.0,False,,
+Historical (pre-2019),2016,,Allegheny Serviceberry,,364 First Ave.,FIRST,40.12842,-75.52011,2.0,Good,Alive,,,Native,2344.0,False,,
+Historical (pre-2019),2016,,Allegheny Serviceberry,,225 Fourth Ave.,FOURTH,40.12647,-75.51491,2.0,Good,Alive,,,Native,2347.0,False,,
+Historical (pre-2019),2016,,Allegheny Serviceberry,,138 Gay St.,GAY,40.13068,-75.51799,2.0,Good,Alive,,,Native,2341.0,False,,
+Historical (pre-2019),2016,,Allegheny Serviceberry,,500 Gay St.,GAY,40.12694,-75.51723,2.0,Good,Alive,,,Native,2349.0,False,,
+Historical (pre-2019),2016,,Allegheny Serviceberry,,500 Gay St.,GAY,40.12691,-75.51737,2.0,Good,Alive,,,Native,2350.0,False,,
+Historical (pre-2019),2016,,Allegheny Serviceberry,,314 Griffen St.,GRIFFEN,40.12435,-75.52081,2.0,Good,Alive,,,Native,2352.0,False,,
+Historical (pre-2019),2016,,Allegheny Serviceberry,,314 Griffen St.,GRIFFEN,40.12442,-75.52102,2.0,Good,Alive,,,Native,2354.0,False,,
+Historical (pre-2019),2016,,American Linden Redmondi,,,,40.1285,-75.51107,2.0,Good,Alive,,,Native,2346.0,False,,
+Historical (pre-2019),2016,,Dwarf Sugar Maple,,1099 Gay St.,GAY,40.12066,-75.51892,2.0,Good,Alive,,,Native,2355.0,False,,
+Historical (pre-2019),2016,,Dwarf Sugar Maple,,1099 Gay St.,GAY,40.12058,-75.51899,2.0,Good,Alive,,,Native,2356.0,False,,
+Historical (pre-2019),2016,,Dwarf Sugar Maple,,297 Griffen St.,GRIFFEN,40.12398,-75.51948,2.0,Good,Alive,,,Native,2351.0,False,,
+Historical (pre-2019),2016,,Dwarf Sugar Maple,,141 Main St.,MAIN,40.13159,-75.5152,2.0,Good,Alive,,,Native,2338.0,False,,
+Historical (pre-2019),2016,,Dwarf Sugar Maple,,141 Main St.,MAIN,40.13162,-75.51507,2.0,Good,Alive,,,Native,2339.0,False,,
+Historical (pre-2019),2016,,Honey Locust,,,Gold St.,40.12996,-75.52084,2.0,Good,Alive,,,Native,2343.0,False,,
+Historical (pre-2019),2016,,Honey Locust,,373 Washington,WASHINGTON,40.12946,-75.52074,2.0,Good,Alive,,,Native,2358.0,False,,
+Historical (pre-2019),2016,,Ivory Silk Japanese Lilac,,251 Third Ave.,THIRD,40.127271,-75.516113,1.5,Good,Alive,,,Ornamental,2366.0,False,,
+Historical (pre-2019),2016,,Linden,,,,40.13198,-75.51803,2.0,Good,Alive,,,Native,2337.0,False,,
+Historical (pre-2019),2016,,Lustre,,152 Gay St.,GAY,40.13013,-75.51789,2.0,Good,Alive,,,Native,2342.0,False,,
+Historical (pre-2019),2016,,Lustre,,297 Griffen St,GRIFFEN,40.12385,-75.51934,2.0,Good,Alive,,,Native,2334.0,False,,
+Historical (pre-2019),2016,,Lustre,,314 Griffen St.,GRIFFEN,40.12438,-75.52093,2.0,Good,Alive,,,Native,2353.0,False,,
+Historical (pre-2019),2016,,"Malus, Red Jewel",,,,40.127073,-75.516161,1.5,fair,Alive,,,Ornamental,2367.0,False,,
+Historical (pre-2019),2016,,"Malus, Red Jewel",,366 First Ave,FIRST,40.128423,-75.520174,1.5,Good,Alive,,,Ornamental,2365.0,False,,
+Historical (pre-2019),2016,,Red Maple,,503 Vanderslice,VANDERSLICE,40.13675,-75.52162,1.5,Good,Alive,,,Native,2360.0,False,,
+Historical (pre-2019),2016,,Red Maple,,435 Vanderslice,VANDERSLICE,40.136802,-75.520706,1.5,Good,Alive,,,Native,2364.0,False,,
+Historical (pre-2019),2016,,Red Maple,,441 Vanderslice,VANDERSLICE,40.13679,-75.520829,1.5,Good,Alive,,,Native,2363.0,False,,
+Historical (pre-2019),2016,,Red Maple,,443 Vanderslice,VANDERSLICE,40.13673,-75.52121,1.5,Good,Alive,,,Native,2362.0,False,,
+Historical (pre-2019),2016,,Red Maple,,443 Vanderslice,VANDERSLICE,40.13671,-75.52137,1.5,Good,Alive,,,Native,2361.0,False,,
+Historical (pre-2019),2016,,Red Maple,,501 Gay St.,GAY,40.12677,-75.51669,2.0,Good,Alive,,,Native,2348.0,False,,
+Historical (pre-2019),2016,,Red Maple,,161 Second Ave.,SECOND,40.12933,-75.5126,2.0,Good,Alive,,,Native,2345.0,False,,
+Historical (pre-2019),2016,,Red Maple,,142 Gay St,GAY,40.13786,-75.52039,2.0,Good,Alive,,,Native,2335.0,False,,
+Historical (pre-2019),2016,,Swamp White Oak,,Reeves Park,THIRD,40.127858,-75.513238,1.5,fair,Alive,,,Native,2368.0,False,,
+Historical (pre-2019),2016,,Yellowwood,,524 Emmett St.,EMMETT,40.1385,-75.52353,1.5,good,Alive,,,Native,2359.0,False,,
+Historical (pre-2019),2017,,Canada Red Chokecherry,,270 Morris,Morris,40.124924,-75.519313,2.0,Good,Alive,,,Native,2455.0,False,,
+Historical (pre-2019),2017,,Hackberry,,Reeves Park,,40.12793,-75.51393,2.0,Good,Alive,,,Native,2500.0,False,,
+Historical (pre-2019),2017,,Honey Locust,,152 Washington Ave.,Washington Ave.,40.1306,-75.51417,2.0,Good,Alive,,,Native,2509.0,False,,
+Historical (pre-2019),2017,,Honey Locust,,343 First Ave.,First Ave.,40.1289,-75.51945,2.0,Good,Alive,,,Native,2514.0,False,,
+Historical (pre-2019),2017,,Honey Locust,,343 First Ave.,First Ave.,40.12876,-75.51941,2.0,Good,Alive,,,Native,2515.0,False,,
+Historical (pre-2019),2017,,Honey Locust,,,,40.125259,-75.515422,2.0,Good,Alive,,,Native,2459.0,False,,
+Historical (pre-2019),2017,,London Plane,,Reeves Park,,40.12827,-75.51267,2.0,Good,Alive,,,Native,2498.0,False,,
+Historical (pre-2019),2017,,London Plane,,Reeves Park,,40.12826,-75.51281,2.0,Good,Alive,,,Native,2499.0,False,,
+Historical (pre-2019),2017,,Paperbark Maple,,135 Main,Main,40.131763,-75.5154,2.0,Good,Alive,,,Native,2461.0,False,,
+Historical (pre-2019),2017,,Paperbark Maple,,574 High St,High St,40.13716,-75.52396,2.0,Good,Alive,,,Native,2496.0,False,,
+Historical (pre-2019),2017,,Red Maple,,916 Main,Main,40.120214,-75.516153,2.0,Good,Alive,,,Native,2456.0,False,,
+Historical (pre-2019),2017,,Red Maple,,,,40.125141,-75.516051,2.0,Good,Alive,,,Native,2457.0,False,,
+Historical (pre-2019),2017,,Red Maple,,,,40.125189,-75.515783,2.0,Good,Alive,,,Native,2458.0,False,,
+Historical (pre-2019),2017,,Red Maple,,,,40.125288,-75.515275,2.0,Good,Alive,,,Native,2460.0,False,,
+Historical (pre-2019),2017,,Red Maple,,916 MAIN ST,MAIN,40.12020913,-75.51613149,2.0,Good,Unknown,2015.0,,Native,2370.0,False,,
+Historical (pre-2019),2017,,Red Maple,,220 Gay St,Gay,40.12906,-75.5176,2.0,Good,Alive,,,Native,2497.0,False,,
+Historical (pre-2019),2017,,Red Maple,,106 Starr St,Starr St.,40.13318,-75.51227,2.0,Good,Alive,,,Native,2510.0,False,,
+Historical (pre-2019),2017,,Red Maple,,601 Columbia Ave.,Columbia Ave.,40.12604,-75.53086,2.0,Good,Alive,,,Native,2511.0,False,,
+Historical (pre-2019),2017,,Red Maple,,601 Columbia Ave.,Columbia Ave.,40.12586,-75.53068,2.0,Good,Alive,,,Native,2512.0,False,,
+Historical (pre-2019),2017,,Red Maple,,615 Main St.,Main St.,40.12579,-75.51314,2.0,Good,Alive,,,Native,2513.0,False,,
+Historical (pre-2019),2017,,Serviceberry,,449 High St,High St,40.13774,-75.52064,2.0,Good,Alive,,,Native,2489.0,False,,
+Historical (pre-2019),2017,,Serviceberry,,504 High St,High St,40.13746,-75.52198,2.0,Good,Alive,,,Native,2490.0,False,,
+Historical (pre-2019),2017,,Serviceberry,,504 High St,High St,40.13745,-75.52209,2.0,Good,Alive,,,Native,2491.0,False,,
+Historical (pre-2019),2017,,Serviceberry,,516 High St,High St,40.13742,-75.52241,2.0,Good,Alive,,,Native,2492.0,False,,
+Historical (pre-2019),2017,,Serviceberry,,536 High St,High St,40.13732,-75.52291,2.0,Good,Alive,,,Native,2493.0,False,,
+Historical (pre-2019),2017,,Serviceberry,,550 High St,High St,40.13727,-75.52324,2.0,Good,Alive,,,Native,2494.0,False,,
+Historical (pre-2019),2017,,Serviceberry,,574 High St,High St,40.13721,-75.52393,2.0,Good,Alive,,,Native,2495.0,False,,
+Historical (pre-2019),2017,,Serviceberry,,334 Hall St,Hall St,40.13157,-75.51993,2.0,Good,Alive,,,Native,2501.0,False,,
+Historical (pre-2019),2017,,Serviceberry,,334 Hall St,Hall St,40.1315,-75.51991,2.0,Good,Alive,,,Native,2502.0,False,,
+Historical (pre-2019),2017,,Serviceberry,,300 Fairview,Fairview,40.1385,-75.52202,2.0,Good,Alive,,,Native,2503.0,False,,
+Historical (pre-2019),2017,,Serviceberry,,300 Fairview,Fairview,40.13837,-75.522,2.0,Good,Alive,,,Native,2504.0,False,,
+Historical (pre-2019),2017,,Serviceberry,,163 Main St,Main St,40.13055,-75.51491,2.0,Good,Alive,,,Native,2505.0,False,,
+Historical (pre-2019),2017,,Serviceberry,,163 Main St,Main St,40.13059,-75.51472,2.0,Good,Alive,,,Native,2506.0,False,,
+Historical (pre-2019),2017,,Serviceberry,,157 Washington Ave.,Washington Ave.,40.13062,-75.51453,2.0,Good,Alive,,,Native,2507.0,False,,
+Historical (pre-2019),2017,,Serviceberry,,155 Washington Ave.,Washington Ave.,40.13065,-75.51437,2.0,Good,Alive,,,Native,2508.0,False,,
+Historical (pre-2019),2017,,Silver Maple,,Reeves Park,,40.12864,-75.51123,2.0,Good,Alive,,,Native,2486.0,False,,
+Historical (pre-2019),2017,,Silver Maple,,Joe Rowan Park,St Marys St,40.13818,-75.52043,2.0,Good,Alive,,,Native,2487.0,False,,
+Historical (pre-2019),2018,,American Elm,,397 City Line Ave.,City Line Ave.,40.12118,-75.52099,2.0,Good,Alive,,,Native,2472.0,False,,
+Historical (pre-2019),2018,,American Elm,,1106 Lane Ave.,Lane Ave.,40.12361,-75.5233,2.0,Good,Alive,,,Native,2474.0,False,,
+Historical (pre-2019),2018,,American Elm,,,,40.12137,-75.5212,2.0,Good,Alive,,,Native,2482.0,False,,
+Historical (pre-2019),2018,,Dwarf Sugar Maple,,403 Anderson Ave.,Anderson Ave.,40.12229,-75.52138,2.0,Good,Alive,,,Native,2475.0,False,,
+Historical (pre-2019),2018,,Dwarf Sugar Maple,,403 Anderson Ave.,Anderson Ave.,40.12236,-75.52156,2.0,Good,Alive,,,Native,2476.0,False,,
+Historical (pre-2019),2018,,Dwarf Sugar Maple,,401 Anderson Ave.,Anderson Ave.,40.12219,-75.52113,2.0,Good,Alive,,,Native,2477.0,False,,
+Historical (pre-2019),2018,,London Plane,,Reeves Park,,40.12837,-75.51316,2.0,Good,Alive,,,Ornamental,2480.0,False,,
+Historical (pre-2019),2018,,London Plane,,Reeves Park,,40.12813,-75.51275,2.0,Good,Alive,,,Ornamental,2481.0,False,,
+Historical (pre-2019),2018,,Red Maple,,406 Anderson Ave.,Anderson Ave.,40.12226,-75.52166,1.0,Good,Alive,,,Native,2464.0,False,,
+Historical (pre-2019),2018,,Red Maple,,400 Anderson Ave,Anderson Ave.,40.12208,-75.52119,1.0,Good,Alive,,,Native,2462.0,False,,
+Historical (pre-2019),2018,,Red Maple,,1201 Tyler,Tyler,40.12342,-75.52487,2.0,Good,Alive,,,Native,2469.0,False,,
+Historical (pre-2019),2018,,Red Maple,,1211 Monroe,Monroe,40.12323,-75.52678,2.0,Good,Alive,,,Native,2471.0,False,,
+Historical (pre-2019),2018,,Red Maple,,504 City Line Ave.,City Line Ave.,40.12267,-75.52509,2.0,Good,Alive,,,Native,2467.0,False,,
+Historical (pre-2019),2018,,Redbud,,403 Anderson Ave.,Anderson Ave.,40.12233,-75.52148,2.0,Good,Alive,,,Native,2478.0,False,,
+Historical (pre-2019),2018,,Redbud,,401 Anderson Ave.,Anderson Ave.,40.12223,-75.52124,2.0,Good,Alive,,,Native,2479.0,False,,
+Historical (pre-2019),2018,,Redbud,,152 Gay St,Gay St,40.12999,-75.518,2.0,Good,Alive,,,Native,2484.0,False,,
+Historical (pre-2019),2018,,Sugar Maple,,1216 Tyler,Tyler,40.12255,-75.52648,2.0,Good,Alive,,,Native,2470.0,False,,
+Historical (pre-2019),2018,,Sugar Maple,,297 City Line Ave.,City Line Ave.,40.12125,-75.52111,2.0,Good,Alive,,,Native,2483.0,False,,
+Historical (pre-2019),2018,,Tulip Poplar,,Morris Park,,40.12424,-75.5188,2.0,Good,Alive,,,Native,2485.0,False,,
+Historical (pre-2019),2018,,Yellowwood,,404 Anderson Ave.,Anderson Ave.,40.12221,-75.5215,2.0,Good,Alive,,,Native,2463.0,False,,
+Historical (pre-2019),2018,,Yellowwood,,505 Anderson Ave.,Anderson Ave.,40.12355,-75.52455,2.0,Good,Alive,,,Native,2465.0,False,,
+Historical (pre-2019),2018,,Yellowwood,,502 City Lane Ave.,City Line Ave.,40.12258,-75.52487,2.0,Good,Alive,,,Native,2466.0,False,,
+Historical (pre-2019),2018,,Yellowwood,,506 City Line Ave.,City Line Ave.,40.12275,-75.52529,2.0,Good,Alive,,,Native,2468.0,False,,
+Historical (pre-2019),2018,,Yellowwood,,1108 Lane Ave.,Lane Ave.,40.12339,-75.52355,2.0,Good,Alive,,,Native,2473.0,False,,
+Fall 2021 - Contract,2021,Fall,266 Keep,,266 keep,,40.1249632,-75.5193675,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,American Hophornbeam,S,208 Morris,,40.125725381228,-75.521311218677,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,American Hornbeam,S,300 Morris,,40.124605037544875,-75.51916822783726,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,Amur Maackia,S,220 Morris,,40.125499781507,-75.520741919814,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,Autumn Brilliance Serviceberry,S,258 Morris,,40.1251162602625,-75.51978839450899,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,Exclamation London Plane,M,417 Gay,,40.127458500996,-75.516971719972,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,Exclamation London Plane,M,240 Dayton,,40.140946311301,-75.51440907190675,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,Exclamation London Plane,M,266 Grant,,40.141502425504406,-75.5172994006858,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,Hackberry,M,414 Carlisle,,40.1211572300945,-75.5235948499025,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,Hot Wings Maple,S,300 Morris,,40.124605037544875,-75.51916822783726,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,Hot Wings Maple - Keep,S,256 Morris,,40.125192827953335,-75.51996184402533,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,Japanese Tree Lilac,S,204 Church,,40.132764100378,-75.516295780242,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,Japanese Tree Lilac,S,321 Dayton,,40.141714279888504,-75.5145988381655,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,Japanese Tree Lilac,S,413 Dayton,,40.142427376970666,-75.514960713147,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,Kentucky Coffee,M,400 Dayton,,40.142147086843,-75.514944977542,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,Magyar Ginkgo,M,508 Bridge,,40.130349338478666,-75.52246977234734,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,Paperbark Maple,S,508 Bridge,,40.130349338478666,-75.52246977234734,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,Paperbark Maple,S,31 Bridge,,40.13463141346,-75.510685397123,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,Point 55,S,413 Dayton,,40.142427376970666,-75.514960713147,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,Pyramidal Hornbeam,M,118 Dayton,,40.13925351787267,-75.51351373966,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,Red Maple,M,419 Gay,,40.127373518720006,-75.5168988357025,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,Red Maple,M,402 Dayton,,40.14227636490933,-75.51500863534133,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,Red Maple,M,122 Dayton,,40.1395021657535,-75.51364529553351,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,Redbud,S,300 Morris,,40.124605037544875,-75.51916822783726,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,Redbud,S,258 Morris,,40.1251162602625,-75.51978839450899,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,Redbud,S,222 Morris,,40.125438766904495,-75.52058165782549,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,Redbud,S,204 Morris,,40.125816424704,-75.521557526733,,,Alive,,,,,False,,
+Fall 2021 - Contract,2021,Fall,Winter King Hawthorn,S,321 Dayton,,40.141714279888504,-75.5145988381655,,,Alive,,,,,False,,
+Fall 2021 - PHS Bare Root,2021,Fall,American Linden,,Reeves Park,,40.1279794,-75.5130315,,,Alive,,,,,False,,
+Fall 2021 - PHS Bare Root,2021,Fall,Black Cherry,,Reeves Park,,40.1279691,-75.5132274,,,Alive,,,,,False,,
+Fall 2021 - PHS Bare Root,2021,Fall,Buckeye,,Reeves Park,,40.1284883,-75.5120152,,,Alive,,,,,False,,
+Fall 2021 - PHS Bare Root,2021,Fall,Hackberry,L/M,Friendship Field,,40.1419308,-75.5179872,,,Alive,,,,,False,,
+Fall 2021 - PHS Bare Root,2021,Fall,Hackberry,,Friendship Field,,40.1419508,-75.5178832,,,Alive,,,,,False,,
+Fall 2021 - PHS Bare Root,2021,Fall,Hawthorn,S,St Mary's Cemetery,,40.1406325,-75.51569,,,Alive,,,,,False,,
+Fall 2021 - PHS Bare Root,2021,Fall,Hawthorn,S,St Mary's Cemetery,,40.1406417,-75.5156216,,,Alive,,,,,False,,
+Fall 2021 - PHS Bare Root,2021,Fall,Hawthorn,,St Marys,,40.1415551,-75.5163608,,,Alive,,,,,False,,
+Fall 2021 - PHS Bare Root,2021,Fall,Hawthorn,,St Marys,,40.1414419,-75.5163044,,,Alive,,,,,False,,
+Fall 2021 - PHS Bare Root,2021,Fall,Hawthorn,,St Marys,,40.1413193,-75.5162368,,,Alive,,,,,False,,
+Fall 2021 - PHS Bare Root,2021,Fall,Hornbeam,S,337 Morgan,,40.1307607,-75.5195236,,,Alive,,,,,False,,Needs sidewalk cutout
+Fall 2021 - PHS Bare Root,2021,Fall,Hornbeam,S,238 Hall,,40.1319488,-75.5171679,,,Alive,,,,,False,,Needs sidewalk cutout
+Fall 2021 - PHS Bare Root,2021,Fall,Hornbeam,S,236 Hall,,40.1319536,-75.5170687,,,Alive,,,,,False,,Needs sidewalk cutout
+Fall 2021 - PHS Bare Root,2021,Fall,Hornbeam,S,234 Hall,,40.1319796,-75.5168635,,,Alive,,,,,False,,Needs sidewalk cutout
+Fall 2021 - PHS Bare Root,2021,Fall,Hornbeam,S,Historic Society,,40.1327693,-75.5162318,,,Alive,,,,,False,,
+Fall 2021 - PHS Bare Root,2021,Fall,Hornbeam,,101 Dayton St,,40.1390947,-75.5133168,,,Alive,,,,,False,,
+Fall 2021 - PHS Bare Root,2021,Fall,Hornbeam,,101 Dayton St,,40.1391296,-75.5133382,,,Alive,,,,,False,,
+Fall 2021 - PHS Bare Root,2021,Fall,Mountain-Ash,,Reeves Park,,40.1286437,-75.5131898,,,Alive,,,,,False,,
+Fall 2021 - PHS Bare Root,2021,Fall,Red Maple,S/M,472 Grant,,40.1401007,-75.5220607,,,Alive,,,,,False,,requested planting
+Fall 2021 - PHS Bare Root,2021,Fall,Red Maple,,266 Grant St,,40.1415125,-75.5171868,,,Alive,,,,,False,,
+Fall 2021 - PHS Bare Root,2021,Fall,Tilia,M/L,235 City Line,,40.1198508,-75.5179048,,,Alive,,,,,False,,
+Fall 2021 - PHS Bare Root,2021,Fall,Yellowwood,,266 Grant St,,40.1414289,-75.5174699,,,Alive,,,,,False,,
+Fall 2021 - PHS Bare Root,2021,Fall,Yellowwood,,266 Grant St,,40.1414566,-75.5173679,,,Alive,,,,,False,,
+Fall 2021 - PHS Bare Root,2021,Fall,Yellowwood,M,Reeves Park,,40.1279235,-75.5135342,,,Alive,,,,,False,,
+Fall 2021 - PHS Bare Root,2021,Fall,Yellowwood,,126 Dayton St,,40.1396422,-75.5137124,,,Alive,,,,,False,,
+Spring 2021,2021,Spring,Amelanchier - Serviceberry,,1001 Gay St,,40.1219048653778,-75.518005826392,,,Alive,,,,,False,,
+Spring 2021,2021,Spring,Amelanchier - Serviceberry,,1001 Gay St,,40.1219048653778,-75.518005826392,,,Alive,,,,,False,,
+Spring 2021,2021,Spring,Amelanchier - Serviceberry,,1001 Gay St,,40.1219048653778,-75.518005826392,,,Alive,,,,,False,,
+Spring 2021,2021,Spring,Amelanchier - Serviceberry,,1001 Gay St,,40.1219048653778,-75.518005826392,,,Alive,,,,,False,,
+Spring 2021,2021,Spring,Hornbeam,,300 Fairview,,40.13825561137125,-75.52202579332737,,,Alive,,,,,False,,
+Spring 2021,2021,Spring,Hornbeam,,300 Fairview,,40.13825561137125,-75.52202579332737,,,Alive,,,,,False,,
+Spring 2021,2021,Spring,Hornbeam,,300 Fairview,,40.13825561137125,-75.52202579332737,,,Alive,,,,,False,,
+Spring 2021,2021,Spring,Sugar Maple,,241 Virginia Ave,,40.12213132666516,-75.51779876224217,,,Alive,,,,,False,,
+Spring 2021,2021,Spring,Sugar Maple,,241 Virginia Ave,,40.12213132666516,-75.51779876224217,,,Alive,,,,,False,,
+Spring 2021,2021,Spring,Sugar Maple,,241 Virginia Ave,,40.12213132666516,-75.51779876224217,,,Alive,,,,,False,,
+Fall 2022 - Contract,2022,Fall,Autumnalis Cherry,S,546 High St,,40.1373497,-75.5231769,,,Alive,,,,,False,,Notify 548 High St also
+Fall 2022 - Contract,2022,Fall,Autumnalis Cherry,S,447 Emmett St,,40.1394923,-75.5209078,,,Alive,,,,,False,,Add whole row
+Fall 2022 - Contract,2022,Fall,Autumnalis Cherry,S,568 High St,,40.1372649,-75.5237645,,,Alive,,,,,False,,
+Fall 2022 - Contract,2022,Fall,Autumnalis Cherry,S,554 High St,,40.1373166,-75.5233717,,,Alive,,,,,False,,Notify 554 High St also
+Fall 2022 - Contract,2022,Fall,Autumnalis Cherry,,534 High St,,40.1373751,-75.5228548,,,Alive,,,,,False,,
+Fall 2022 - Contract,2022,Fall,Hawthorn,S,530 High St,,40.1373977,-75.5227453,,,Alive,,,,,False,,
+Fall 2022 - Contract,2022,Fall,Hawthorn,S,538 High St,,40.1373664,-75.5229916,,,Alive,,,,,False,,
+Fall 2022 - Contract,2022,Fall,Hawthorn,S,529 Rhoades St,,40.1385545,-75.5232294,,,Alive,,,,,False,,Upright form
+Fall 2022 - Contract,2022,Fall,Hawthorn,S,564 High St,,40.1372774,-75.5236733,,,Alive,,,,,False,,Add whole row
+Fall 2022 - Contract,2022,Fall,Hawthorn,,523 Gay St,,40.1262568,-75.5161935,,,Alive,,,,,False,,
+Fall 2022 - Contract,2022,Fall,Honeylocust,M,152 Church St,,40.1330512,-75.5142329,,,Alive,,,,,False,,
+Fall 2022 - Contract,2022,Fall,Honeylocust,,1215 Main St,,40.1190357,-75.5167446,,,Alive,,,,,False,,
+Fall 2022 - Contract,2022,Fall,Honeylocust,,231 City Line Ave,,40.119709,-75.5176324,,,Alive,,,,,False,,
+Fall 2022 - Contract,2022,Fall,Honeylocust,,235 City Line Ave,,40.1199046,-75.5179717,,,Alive,,,,,False,,
+Fall 2022 - Contract,2022,Fall,Honeylocust,,1099 Gay St,,40.1203304,-75.5186853,,,Alive,,,,,False,,
+Fall 2022 - Contract,2022,Fall,Hophornbeam,M,152 Church St,,40.1330419,-75.5143094,,,Alive,,,,,False,,
+Fall 2022 - Contract,2022,Fall,Hophornbeam,M,300 High St,,40.1375704,-75.5157126,,,Alive,,,,,False,,Main St side
+Fall 2022 - Contract,2022,Fall,Hophornbeam,M,300 High St,,40.137429,-75.5156992,,,Alive,,,,,False,,Main St side
+Fall 2022 - Contract,2022,Fall,Hophornbeam,M,131 First Ave,,40.13024,-75.5130076,,,Alive,,,,,False,,B St side
+Fall 2022 - Contract,2022,Fall,Hophornbeam,,241 City Line Ave,,40.1201878,-75.5184587,,,Alive,,,,,False,,
+Fall 2022 - Contract,2022,Fall,Horsechestnut,M,148 Church St,,40.1330619,-75.5141315,,,Alive,,,,,False,,7-8 trees
+Fall 2022 - Contract,2022,Fall,Horsechestnut,M,156 Church St,,40.1330142,-75.5144986,,,Alive,,,,,False,,
+Fall 2022 - Contract,2022,Fall,Horsechestnut,M,1215 Main St,,40.118949,-75.5165991,,,Alive,,,,,False,,
+Fall 2022 - Contract,2022,Fall,Horsechestnut,,1250 Main St,,40.1195838,-75.517405,,,Alive,,,,,False,,
+Fall 2022 - Contract,2022,Fall,Yellowwood,M,300 High St,,40.1378519,-75.515722,,,Alive,,,,,False,,Main St side
+Fall 2022 - Contract,2022,Fall,Yellowwood,M,131 First Ave,,40.1300185,-75.5129181,,,Alive,,,,,False,,B St side
+Fall 2022 - Contract,2022,Fall,Yellowwood,M,148 Church St,,40.1330707,-75.5140371,,,Alive,,,,,False,,
+Fall 2022 - Contract,2022,Fall,Yellowwood,M,156 Church St,,40.1330224,-75.5144181,,,Alive,,,,,False,,
+Fall 2022 - Contract,2022,Fall,Yellowwood,M,300 High St,,40.1377129,-75.5157207,,,Alive,,,,,False,,Main St side
+Fall 2022 - Contract,2022,Fall,Yellowwood,,1250 Main St,,40.1195448,-75.5173137,,,Alive,,,,,False,,
+Fall 2022 - Volunteer,2022,Fall,Acer Saccharum,L,505 City Line Ave,,40.1229571,-75.5253687,,,Alive,,,,,False,,requested to pick species
+Fall 2022 - Volunteer,2022,Fall,Acer Saccharum,L,505 City Line Ave,,40.1228607,-75.52513,,,Alive,,,,,False,,requested to pick species
+Fall 2022 - Volunteer,2022,Fall,Acer Saccharum,L,1211 Harrison Ave.,,40.143891,-75.5185437,,,Alive,,,,,False,,request for replacement of removal
+Fall 2022 - Volunteer,2022,Fall,Acer Saccharum,L,Rez Park,,40.1450348,-75.5199143,,,Alive,,,,,False,,hole 18 fairway
+Fall 2022 - Volunteer,2022,Fall,Acer Saccharum,M,,,40.1284003,-75.5135853,,,Alive,,,,,False,,
+Fall 2022 - Volunteer,2022,Fall,Acer Saccharum,L,,,40.1287352,-75.5119893,,,Alive,,,,,False,,
+Fall 2022 - Volunteer,2022,Fall,Amelanchier Laevis,S,338 Washington Ave,,40.1295805,-75.5195015,,,Alive,,,,,False,,serviceberry requested
+Fall 2022 - Volunteer,2022,Fall,Amelanchier Laevis,S,338 Washington,,40.1293201,-75.5194553,,,Alive,,,,,False,,serviceberry requested
+Fall 2022 - Volunteer,2022,Fall,Amelanchier Laevis,S,338 Washington,,40.1292278,-75.5194271,,,Alive,,,,,False,,serviceberry requested
+Fall 2022 - Volunteer,2022,Fall,Amelanchier Laevis,S,344 Church St,,40.1324182,-75.5198515,,,Alive,,,,,False,,request for replacement of removal
+Fall 2022 - Volunteer,2022,Fall,Carpinus Caroliniana,S,1101 Gay St,,40.1209264,-75.5182097,,,Alive,,,,,False,,replace dead tree
+Fall 2022 - Volunteer,2022,Fall,Carpinus Caroliniana,S,Reeves Park,,40.1291255,-75.5111515,,,Alive,,,,,False,,replace dead tree
+Fall 2022 - Volunteer,2022,Fall,Celtis Occidentalis,L,Reeves Park,,40.1285366,-75.5125181,,,Alive,,,,,False,,
+Fall 2022 - Volunteer,2022,Fall,Cladastris Kentukea,S,237 Fourth Ave,,40.1263946,-75.5153296,,,Alive,,,,,False,,"Remove dead tree (~9"" lilactree)"
+Fall 2022 - Volunteer,2022,Fall,Cladastris Kentukea,M,213 Morris,,40.1257681,-75.5211905,,,Alive,,,,,False,,sidewalk cutout needed
+Fall 2022 - Volunteer,2022,Fall,Cladastris Kentukea,M,229 Anderson,,40.1206518,-75.5172238,,,Alive,,,,,False,,
+Fall 2022 - Volunteer,2022,Fall,Cladastris Kentukea,M,820 Gay St,,40.1233538,-75.5173008,,,Alive,,,,,False,,contract or volunteer?
+Fall 2022 - Volunteer,2022,Fall,Cladastris Kentukea,M,816 Gay St,,40.1235551,-75.5171648,,,Alive,,,,,False,,replace removal
+Fall 2022 - Volunteer,2022,Fall,Cladastris Kentukea,S,Reeves Park,,40.1290895,-75.5113969,,,Alive,,,,,False,,replace dead tree
+Fall 2022 - Volunteer,2022,Fall,Cladastris Kentukea,M,508 Bridge St,,40.1304715,-75.5224876,,,Alive,,,,,False,,replace dead tree
+Fall 2022 - Volunteer,2022,Fall,Cladastris Kentukea,M,619 Gay St,,40.1254821,-75.5162866,,,Alive,,,,,False,,
+Fall 2022 - Volunteer,2022,Fall,Cladastris Kentukea,M,611 Gay St,,40.1256892,-75.5163563,,,Alive,,,,,False,,replace dead tree
+Fall 2022 - Volunteer,2022,Fall,Cladastris Kentukea,M,423 Virginia Ave,,40.1238198,-75.5222211,,,Alive,,,,,False,,replace large oak removal
+Fall 2022 - Volunteer,2022,Fall,Gymnocladus Dioicus,L,Rez Park,,40.1290694,-75.5113005,,,Alive,,,,,False,,near basketball court
+Fall 2022 - Volunteer,2022,Fall,Metasequoia Glyptosptrobides,L,,,40.1282543,-75.5137141,,,Alive,,,,,False,,
+Fall 2022 - Volunteer,2022,Fall,Quercus Bicolor,L,Rez Park,,40.1465847,-75.5182395,,,Alive,,,,,False,,replace dead hackberry
+Fall 2022 - Volunteer,2022,Fall,Quercus Bicolor,L,,,40.1279626,-75.5127334,,,Alive,,,,,False,,
+Fall 2022 - Volunteer,2022,Fall,Quercus Muehlenbergii,L,Reeves Park,,40.1457964,-75.5189192,,,Alive,,,,,False,,near tee on hole 2
+Fall 2022 - Volunteer,2022,Fall,Tilia Americana,L,Rez Park,,40.1448686,-75.5205213,,,Alive,,,,,False,,Near hole 18 tee
+Fall 2022 - Volunteer,2022,Fall,Tilia Americana,L,Rez Park,,40.1449896,-75.520355,,,Alive,,,,,False,,Near hole 18 tee
+Spring 2022 - Contract,2022,Spring,American Hornbeam,,405 Vanderslice,,40.1369459,-75.5187721,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Appalachian Redbud,,400 Franklin,,40.14183,-75.5206163,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Autumnalis Cherry,,400 Franklin,,40.1409689,-75.5201764,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Autumnalis Cherry,,309 Franklin,,40.13997,-75.5196487,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Bur Oak,,304 Nutt,,40.1258247,-75.5185487,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Bur Oak,,402 Gay,,40.1278648,-75.5171808,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Constallation Dogwood,,131 Nutt,,40.1241698,-75.5140884,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Constellation Dogwood,,510 Franklin,,40.1425239,-75.5209185,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Constellation Dogwood,,312 Gay,,40.1284758,-75.5173839,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Constellation Dogwood,,400 Franklin,,40.1414692,-75.52045,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Constellation Dogwood,,321 Franklin,,40.1404364,-75.5198467,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Constellation Dogwood,,319 Franklin,,40.1403562,-75.5198054,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Eastern Redbud,,432 Franklin,,40.1422933,-75.5207879,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Eastern Redbud,,400 Franklin,,40.1412621,-75.5203213,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Excalamtion London Plane,,450 Gay,,40.1272278,-75.5169624,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Forest Pansy,,131 Nutt,,40.1241001,-75.5139489,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Forest Pansy Redbud,,405 Franklin,,40.1409908,-75.5200804,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Green Zelkova,,14 Main,,40.1337764,-75.5162135,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Hackberry,,311 Nutt,,40.1261101,-75.5185288,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Hackberry,,414 Lincoln,,40.127111,-75.5188674,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Harvest Gold Linden,,312 Gay,,40.1283774,-75.5173463,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Harvest Gold Linden,,512 Lincoln,,40.126457,-75.5186286,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Hedge Maple,,213 Morris,,40.1257437,-75.521156,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Hedge Maple,,403 Franklin,,40.1408737,-75.5200341,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Hedge Maple,,311 Franklin,,40.1401492,-75.5197141,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Hedge Maple,,359 Emmett,,40.1398528,-75.5195873,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Honeylocust,,500 Gay,,40.1268633,-75.5168566,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Honeylocust,,236 Nutt,,40.1255095,-75.5177699,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Honeylocust,,218 Nutt,,40.1250489,-75.5166638,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Hophornbeam,,123 Nutt,,40.1242057,-75.5141743,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Hophornbeam,,311 Nutt,,40.1259789,-75.5184858,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Hot Wings Maple,,131 Nutt,,40.1242888,-75.5143619,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Hot Wings Maple,,400 Franklin,,40.1420802,-75.5207236,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Japanese Tree Lilac,,400 Franklin,,40.1410386,-75.5202113,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Japanese Tree Lilac,,400 Franklin,,40.1413339,-75.5203642,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Lilac Tree,,400 Franklin,,40.1408991,-75.5201523,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Lilac Tree,,400 Franklin,,40.1415963,-75.5205198,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Okame Cherry,,400 Franklin,,40.1411944,-75.520273,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Okame Cherry,,400 Franklin,,40.1419571,-75.5206699,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Okame Cherry,,327 Franklin,,40.1406679,-75.519933,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Prariefire,,111 Dayton,,40.1392792,-75.5133707,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Prariefire,,115 Dayton,,40.139476,-75.5135094,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Prariefire,,121 Dayton,,40.1396755,-75.5135897,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Prariefire,,307 Dayton,,40.1413248735145,-75.514408803772,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Prariefire,,131 Nutt,,40.1241288,-75.514024,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Red Maple,,404 Gay,,40.1277272,-75.5171302,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Red Maple,,308 Nutt,,40.1258787,-75.5187544,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Redbud,,111 Dayton,,40.1393673,-75.5134136,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Redbud,,121 Dayton,,40.1397678,-75.5136433,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Redbud,,415 Franklin,,40.1413003,-75.5202401,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Redbud,,421 Franklin,,40.1415371,-75.52035,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Redbud,,514 Franklin,,40.1426363,-75.5209801,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Regal Prince Oak,,22 Main,,40.1375825,-75.5157454,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,River Birch,,264 Walnut,,40.1312475,-75.5180081,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Serviceberry,,423 Franklin,,40.1416742,-75.5204066,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Serviceberry,,415 Franklin,,40.1411978,-75.5201865,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Serviceberry,,415 Franklin,,40.141411,-75.5202831,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Serviceberry,,131 Nutt,,40.1243462,-75.51448,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Serviceberry,,508 Franklin,,40.1424191,-75.5208643,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Serviceberry,,400 Franklin,,40.1416947,-75.5205519,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Serviceberry,,309 Franklin,,40.1400561,-75.5196917,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Serviceberry,,359 Emmett,,40.1397339,-75.5195283,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Shumard Oak,,311 Nutt,,40.1262291,-75.5185663,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Skyline Honey Locust,,236 Nutt,,40.1255628,-75.5179576,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Smokebush,,12 Main,,40.1335572,-75.5161616,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Smokebush,,321 Franklin,,40.1405553,-75.5199057,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Smokebush,,313 Franklin,,40.1402355,-75.5197498,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Stellar Pink Dogwood,,400 Franklin,,40.1411042,-75.5202462,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,Tree Lilac,,131 Nutt,,40.1242313,-75.5142278,,,Alive,,,,,False,,
+Spring 2022 - Contract,2022,Spring,,,334 Washington,,40.1296745,-75.5193568,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,American Linden,,Reservoir Park 2,,40.145808,-75.518904,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Catalpa,,Reservoir Park 7,,40.146732,-75.51754,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Catalpa,,Reservoir Park 9,,40.146092,-75.517599,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Catalpa,,Reservoir Park - 12,,40.1438272,-75.5196561,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Flowering Cherry,,Reservoir Park 1,,40.145512,-75.519268,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Freeman Maple,,116 Fifth Ave.,,40.126102,-75.510948,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Hackberry,,Reservoir Park 5,,40.14659,-75.518104,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Hackberry,,Reservoir Park - 13,,40.143518,-75.519514,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Hackberry,,Reservoir Park - 14,,40.14357,-75.519214,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Hornbeam,,Reservoir Park 10,,40.145981,-75.517666,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Hornbeam,,Reservoir Park 8,,40.1466099,-75.5177686,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Malus,,242 Hall St,,40.131924,-75.517303,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Malus,,209 Emmett - South St side,,40.141208,-75.516196,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Malus,,209 Emmett - South St side,,40.14145,-75.516314,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Malus,,209 Emmett - South St side,,40.141386,-75.516283,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Malus,,209 Emmett - South St side,,40.141339,-75.516257,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Malus,,209 Emmett - South St side,,40.141292,-75.516237,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Malus,,209 Emmett - South St side,,40.14125,-75.516214,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Malus,,345 Church St,,40.132507,-75.519975,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Red Maple,,Phx Federal Bank,,40.132124,-75.516115,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Red Maple,,Phx Federal Bank,,40.132093,-75.516392,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Red Maple,,Reservoir Park 3,,40.146018,-75.518379,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Red Maple,,Reservoir Park 4,,40.146279,-75.518229,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Red Maple,,Reservoir Park 6,,40.147015,-75.517969,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Shagbark Hickory,,Reservoir Park - 11,,40.1433768,-75.5198908,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Sugar Maple,,241 Virginia,,40.121977,-75.517573,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Swamp White Oak,,Reeves Park,,40.127901,-75.513147,,,Alive,,,,,False,,
+Spring 2022 - Volunteer,2022,Spring,Yellowwood,,Phx Federal Bank,,40.132106,-75.516268,,,Alive,,,,,False,,
+Fall 2023 - Parks,2023,Fall,Buckeye,L,Reeves Park,,40.1281921,-75.51183,,good,Alive,,,,,False,,Reeves Park
+Fall 2023 - Parks,2023,Fall,Buckeye,L,Reeves Park,,40.1286024,-75.5109996,,good,Alive,,,,,False,,Reeves Park
+Fall 2023 - Parks,2023,Fall,Giant Dogwood,L,Reeves Park,,40.128533,-75.51206,,good,Alive,,,,,False,,Reeves Park
+Fall 2023 - Parks,2023,Fall,Giant Dogwood,L,Reeves Park,,40.1284458,-75.5109136,,good,Alive,,,,,False,,Reeves Park
+Fall 2023 - Parks,2023,Fall,Hackberry,L,Reeves Park,,40.1282998,-75.5115724,,Live,Alive,,,,,False,,Reeves Park
+Fall 2023 - Parks,2023,Fall,Hackberry,L,Reeves Park,,40.128393,-75.51108,,good,Alive,,,,,False,,Reeves Park
+Fall 2023 - Parks,2023,Fall,Hackberry,L,Reeves Park,,40.12795,-75.513168,,Live,Alive,,,,,False,,Reeves Park
+Fall 2023 - Parks,2023,Fall,Hackberry,L,Reservoir Park,,40.146233,-75.518369,,good,Alive,,,,,False,,replace dead tree
+Fall 2023 - Parks,2023,Fall,Hackberry,L,Reservoir Park,,40.14591,-75.518947,,good,Alive,,,,,False,,
+Fall 2023 - Parks,2023,Fall,Hophornbeam,L,Reeves Park,,40.1283223,-75.5117036,,dead,Alive,,,,,False,,Reeves Park
+Fall 2023 - Parks,2023,Fall,Hophornbeam,L,Reservoir Park,,40.146091,-75.518491,,good,Alive,,,,,False,,
+Fall 2023 - Parks,2023,Fall,Hophornbeam,L,Reeves Park,,40.1285994,-75.5139075,,dead,Alive,,,,,False,,Replace removed sycamore
+Fall 2023 - Parks,2023,Fall,Serviceberry,S,Reservoir Park,,40.146536,-75.517802,,good,Alive,,,,,False,,replace dead cherry tree
+Fall 2023 - Parks,2023,Fall,Serviceberry,S,Reservoir Park,,40.145878,-75.517596,,good,Alive,,,,,False,,Replace
+Fall 2023 - Parks,2023,Fall,Serviceberry,S,Reservoir Park,,40.145468,-75.519405,,good,Alive,,,,,False,,Flowering
+Fall 2023 - Parks,2023,Fall,Serviceberry,S,242 Hall St,,40.131932,-75.51731,,Good,Alive,,,,,False,Yes,Has a gator bag and resident is watering.
+Fall 2023 - Parks,2023,Fall,Swamp White Oak,L,Reeves Park,,40.128446,-75.512556,,good,Alive,,,,,False,,Reeves Park
+Fall 2023 - Parks,2023,Fall,Swamp White Oak,L,Reeves Park,,40.1283043,-75.5118403,,good,Alive,,,,,False,,Reeves Park
+Fall 2023 - Parks,2023,Fall,Swamp White Oak,L,Reeves Park,,40.128268,-75.5112566,,good,Alive,,,,,False,,Reeves Park
+Fall 2023 - Parks,2023,Fall,Swamp White Oak,L,Reservoir Park,,40.1448859,-75.5204381,,live,Alive,,,,,False,,
+Fall 2023 - Parks,2023,Fall,Swamp White Oak,L,Reservoir Park,,40.145751,-75.519043,,good,Alive,,,,,False,,Replace dead oak
+Fall 2023 - Parks,2023,Fall,Swamp White Oak,,Reservoir Park,,40.147142,-75.51791,,dead,Alive,,,,,False,,
+Fall 2023 - Parks,2023,Fall,Tilia,L,Reeves Park,,40.128374,-75.511883,,good,Alive,,,,,False,,Reeves Park
+Fall 2023 - Parks,2023,Fall,Tilia,L,Reeves Park,,40.128244,-75.511379,,good,Alive,,,,,False,,Reeves Park
+Fall 2023 - Parks,2023,Fall,Tilia,L,Reservoir Park,,40.145988,-75.518678,,good,Alive,,,,,False,,
+Fall 2023 - Parks,2023,Fall,Tilia,L,Reservoir Park,,40.1448346,-75.5205502,,live,Alive,,,,,False,,replace dead maple; fast growing
+Fall 2023 - Parks,2023,Fall,Tilia,,Reservoir Park,,40.14608,-75.517718,,good,Alive,,,,,False,,
+Fall 2023 - Parks,2023,Fall,Yellowwood,L,Reeves Park,,40.128387,-75.511774,,dead,Alive,,,,,False,,Reeves Park
+Fall 2023 - Parks,2023,Fall,Yellowwood,L,Reeves Park,,40.128286,-75.5111421,,good,Alive,,,,,False,,Reeves Park
+Fall 2023 - Parks,2023,Fall,Yellowwood,L,Reeves Park,,40.128312,-75.513732,,Dead,Alive,,,,,False,,Replace dead yellowwood
+Fall 2023 - Volunteer,2023,Fall,Flowering Cherry,S,12 Anderson,,40.1184444,-75.5134649,,,Alive,,,,,False,,old stumps
+Fall 2023 - Volunteer,2023,Fall,Flowering Cherry,S,503 Vanderslice St,,40.1367541,-75.52163,,,Alive,,,,,False,,Fairview side
+Fall 2023 - Volunteer,2023,Fall,Flowering Cherry,S,503 Vanderslice St,,40.1368228,-75.5216515,,,Alive,,,,,False,,Fairview side
+Fall 2023 - Volunteer,2023,Fall,Flowering Cherry,S,100 First Ave,,40.1300619,-75.5116465,,,Alive,,,,,False,,
+Fall 2023 - Volunteer,2023,Fall,Hophornbeam,M,214 Church St,,40.1327529,-75.5164764,,,Alive,,,,,False,,near 218 Church St; empty tree pit at parking lot
+Fall 2023 - Volunteer,2023,Fall,Hophornbeam,M,248 Church St,,40.1322394,-75.518158,,,Alive,,,,,False,,Gay St side near red door of church
+Fall 2023 - Volunteer,2023,Fall,Hornbeam,S,548 Bridge,,40.1300175,-75.5239977,,,Alive,,,,,False,,
+Fall 2023 - Volunteer,2023,Fall,Hornbeam,S,302 Franklin Ave,,40.1397384,-75.5196068,,,Alive,,,,,False,,
+Fall 2023 - Volunteer,2023,Fall,Hornbeam,S,305 Starr St,,40.1302583,-75.5111199,,,Alive,,,,,False,,
+Fall 2023 - Volunteer,2023,Fall,Hornbeam,S,502 Emmett St,,40.1391668,-75.5224366,,,Alive,,,,,False,,
+Fall 2023 - Volunteer,2023,Fall,Hornbeam,S,121 Gay St,,40.1318021,-75.5181051,,,Alive,,,,,False,,replace small dead tree
+Fall 2023 - Volunteer,2023,Fall,Hornbeam,S,206 Gay St,,40.1296656,-75.5178018,,,Alive,,,,,False,,
+Fall 2023 - Volunteer,2023,Fall,Hornbeam,S,463 W High St,,40.1377133,-75.521245,,,Alive,,,,,False,,
+Fall 2023 - Volunteer,2023,Fall,Ohio Buckeye,M,Second Ave,,40.1290452,-75.5115792,,,Alive,,,,,False,,
+Fall 2023 - Volunteer,2023,Fall,Red Maple,L,Reservoir Park,,40.1468597,-75.5176712,,,Alive,,,,,False,,
+Fall 2023 - Volunteer,2023,Fall,Red Maple,L,Reservoir Park,,40.1463758,-75.5174137,,,Alive,,,,,False,,Replace dead cherry #2832
+Fall 2023 - Volunteer,2023,Fall,Red Maple,M,223 Gay St,,40.1291941,-75.5174891,,,Alive,,,,,False,,near Wasko's
+Fall 2023 - Volunteer,2023,Fall,Red Maple,M,611 Gay St,,40.1256984,-75.5163432,,,Alive,,,,,False,,
+Fall 2023 - Volunteer,2023,Fall,Red Maple,M,Second Ave,,40.1290196,-75.5116851,,,Alive,,,,,False,,
+Fall 2023 - Volunteer,2023,Fall,Red Maple,M,Reeves Park,,40.1280321,-75.5128278,,,Alive,,,,,False,,demo planting
+Fall 2023 - Volunteer,2023,Fall,Serviceberry,S,137 Gay St,,40.1309815,-75.5179413,,,Alive,,,,,False,,
+Fall 2023 - Volunteer,2023,Fall,Serviceberry,S,351 Bridge St,,40.1333493,-75.5204305,,,Alive,,,,,False,,
+Fall 2023 - Volunteer,2023,Fall,Swamp White Oak,L,Reservoir Park,,40.1463102,-75.5181325,,,Alive,,,,,False,,Tube tied up
+Fall 2023 - Volunteer,2023,Fall,Swamp White Oak,L,Point 47,,40.1476183,-75.5171783,,,Alive,,,,,False,,Black bag tied on
+Fall 2023 - Volunteer,2023,Fall,Yellowwood,M,242 Church St,,40.1326402,-75.5176163,,,Alive,,,,,False,,
+Fall 2023 - Volunteer,2023,Fall,,S,Backup - 12 Anderson,,40.1183685,-75.5133335,,,Alive,,,,,True,,old stumps
+Fall 2023 - Volunteer,2023,Fall,,M,Backup - 119 Main St,,40.132224,-75.5155565,,,Alive,,,,,True,,
+Fall 2023 - Volunteer,2023,Fall,,M,Backup - 105 Buchanan,,40.1306343,-75.5222423,,,Alive,,,,,True,,in front of PACS
+Fall 2023 - Volunteer,2023,Fall,,M,Backup - 533 Ringold,,40.1264433,-75.5261421,,,Alive,,,,,True,,Althouse Lane side
+Fall 2023 - Volunteer,2023,Fall,,S,Backup - 320 High St,,40.1379752,-75.5173969,,,Alive,,,,,True,,
+Fall 2023 - Volunteer,2023,Fall,,S,Backup - 7 Melvin Road,,40.1186234,-75.5157868,,,Alive,,,,,True,,
+Fall 2023 - Volunteer,2023,Fall,,S,Backup - 335 Marshall St,,40.1414663,-75.5173571,,,Alive,,,,,True,,on Grant St
+Fall 2023 - Volunteer,2023,Fall,,M,Backup - 472 Grant St,,40.1401358,-75.5220015,,,Alive,,,,,True,,
+Fall 2023 - Volunteer,2023,Fall,,S,Backup - First Ave,,40.1300721,-75.5114051,,,Alive,,,,,True,,
+Fall 2023 - Volunteer,2023,Fall,,S,Backup - 224 Hall St,,40.1320116,-75.5166065,,,Alive,,,,,True,,
+Fall 2023 - Volunteer,2023,Fall,,M,Backup - 225 Walnut,,40.1315984,-75.5167931,,,Alive,,,,,True,,
+Fall 2023 - Volunteer,2023,Fall,,S,Backup - 100 First,,40.1298865,-75.5111825,,,Alive,,,,,True,,
+Fall 2023 - Volunteer,2023,Fall,,S,Backup - 100 First,,40.1300034,-75.5112308,,,Alive,,,,,True,,
+Fall 2023 - Volunteer,2023,Fall,,,177 Church St,,40.1330062,-75.5151057,,,Alive,,,,,False,,near fire hall parking lot
+Fall 2023 - Volunteer,2023,Fall,,,177 Church St,,40.1330144,-75.5149823,,,Alive,,,,,False,,near fire hall parking lot
+Fall 2023 - Volunteer,2023,Fall,,M,Backup - 121 Fifth Ave,,40.1261927,-75.5110417,,,Alive,,,,,True,,remove dead tree
+Fall 2023 - Volunteer,2023,Fall,,S,Backup - 228 Church St,,40.1326874,-75.5170706,,,Alive,,,,,True,,
+Spring 2023 - Contract,2023,Spring,Hawthorn,S,1215 Main St,,40.11915,-75.5168606,,,Alive,,,,,False,,power lines
+Spring 2023 - Contract,2023,Spring,Hawthorn,S,923 Main St,,40.1199982,-75.5160146,,,Alive,,,,,False,,power lines
+Spring 2023 - Contract,2023,Spring,Hornbeam,S,837 Maple Ave,,40.1269227,-75.5263027,,,Alive,,,,,False,,sidewalk curved for tree
+Spring 2023 - Contract,2023,Spring,Red Maple,M,225 High St,,40.1380796,-75.5157302,,,Alive,,,,,False,,no conflict
+Spring 2023 - Contract,2023,Spring,Red Maple,M,472 Emmett St,,40.1390744,-75.5220118,,,Alive,,,,,False,,Fairview St side
+Spring 2023 - Contract,2023,Spring,Red Maple,M,316 High St,,40.1379816,-75.5171239,,,Alive,,,,,False,,in yard
+Spring 2023 - Contract,2023,Spring,Red Maple,M,1220 Dorothy Ave,,40.1181186,-75.5151898,,,Alive,,,,,False,,
+Spring 2023 - Contract,2023,Spring,Red Maple,M,231 City Line Ave,,40.1197224,-75.5175956,,,Alive,,,,,False,,in yard
+Spring 2023 - Contract,2023,Spring,Red Maple,M,503 Vanderslice St,,40.1366963,-75.5216595,,,Alive,,,,,False,,
+Spring 2023 - Contract,2023,Spring,Red Maple,M,245 Morgan St,,40.1310274,-75.5171076,,,Alive,,,,,False,,
+Spring 2023 - Contract,2023,Spring,Red Maple,M,Fisher Park,,40.1235622,-75.5107203,,,Alive,,,,,False,,
+Spring 2023 - Contract,2023,Spring,Red Maple,M,Reeves Park,,40.1281158,-75.5136496,,,Alive,,,,,False,,
+Spring 2023 - Contract,2023,Spring,Red Maple,M,502 Virginia Ave,,40.1241591,-75.5239148,,,Alive,,,,,False,,
+Spring 2023 - Contract,2023,Spring,Serviceberry,S,318 Franklin,,40.1402984,-75.5198941,,,Alive,,,,,False,,sidewalk cutout
+Spring 2023 - Contract,2023,Spring,Serviceberry,S,319-323 High St,,40.1380928,-75.5174054,,,Alive,,,,,False,,sidewalk cutout
+Spring 2023 - Contract,2023,Spring,Serviceberry,S,835 Maple Ave,,40.1270633,-75.5261734,,,Alive,,,,,False,,sidewalk cutout
+Spring 2023 - Contract,2023,Spring,Serviceberry,S,100 1st Ave,,40.1300943,-75.5114702,,,Alive,,,,,False,,
+Spring 2023 - Contract,2023,Spring,Serviceberry,S,100 1st Ave,,40.1300122,-75.5112154,,,Alive,,,,,False,,on Starr St
+Spring 2023 - Contract,2023,Spring,Sugar Maple,M,318 High St,,40.1379708,-75.5172279,,,Alive,,,,,False,,in yard
+Spring 2023 - Contract,2023,Spring,Sugar Maple,M,Reeves Park,,40.1280441,-75.5130216,,,Alive,,,,,False,,
+Spring 2023 - Contract,2023,Spring,Sugar Maple,M,Fisher Park,,40.1237037,-75.5111092,,,Alive,,,,,False,,
+Spring 2023 - Contract,2023,Spring,Sugar Maple,M,518 Virginia Ave,,40.1235159,-75.5102803,,,Alive,,,,,False,,sidwealk cutout
+Spring 2023 - Contract,2023,Spring,Yellowwood,M,307-309 High St,,40.1380871,-75.5168741,,,Alive,,,,,False,,sidewalk cutout
+Spring 2023 - Contract,2023,Spring,Yellowwood,M,241 City Line Ave,,40.1202037,-75.5185001,,,Alive,,,,,False,,previous tree location
+Spring 2023 - Contract,2023,Spring,Yellowwood,M,209 Emmett St,,40.1405554,-75.516409,,,Alive,,,,,False,,
+Spring 2023 - Contract,2023,Spring,Yellowwood,M,Fisher Park,,40.1235652,-75.5105151,,,Alive,,,,,False,,
+Spring 2023 - Contract,2023,Spring,Yellowwood,M,Reeves Park,,40.1280553,-75.5134497,,,Alive,,,,,False,,
+Spring 2023 - Contract,2023,Spring,Yellowwood,M,1099 Gay St,,40.1205135,-75.5189665,,,Alive,,,,,False,,City Line side
+Spring 2023 - Contract,2023,Spring,Yellowwood,M,Reeves Park,,40.1284307,-75.5141379,,,Alive,,,,,False,,
+Spring 2023 - Volunteer,2023,Spring,Accolade Cherry,,301 Starr St,,40.1307341,-75.5112607,,,Alive,,,,,False,,Accolade cherry
+Spring 2023 - Volunteer,2023,Spring,Accolade Cherry,,301 Starr St.,,40.1306295,-75.5112326,,,Alive,,,,,False,,Accolade cherry
+Spring 2023 - Volunteer,2023,Spring,Accolade Cherry,,228 Anderson,,40.120616,-75.5174627,,,Alive,,,,,False,,Accolade cherry
+Spring 2023 - Volunteer,2023,Spring,Accolade Cherry,,35 Bridge St.,,40.1345843,-75.5111922,,,Alive,,,,,False,,Accolade cherry
+Spring 2023 - Volunteer,2023,Spring,Chinkapin Oak,,Reeves Park,,40.1280166,-75.51395,,,Alive,,,,,False,,Chinkapin oak
+Spring 2023 - Volunteer,2023,Spring,Red Maple,,332 Washington Ave.,,40.1296218,-75.5192777,,,Alive,,,,,False,,Red maple
+Spring 2023 - Volunteer,2023,Spring,Red Maple,,330 Washington Ave.,,40.1296382,-75.5191972,,,Alive,,,,,False,,Red maple
+Spring 2023 - Volunteer,2023,Spring,Serviceberry,,204 Church St.,,40.1327788,-75.5161219,,,Alive,,,,,False,,Serviceberry
+Spring 2023 - Volunteer,2023,Spring,Serviceberry,,232 Church St.,,40.1326506,-75.5171885,,,Alive,,,,,False,,Serviceberry
+Spring 2023 - Volunteer,2023,Spring,Serviceberry,,152 Gay St.,,40.1301951,-75.5179083,,,Alive,,,,,False,,Serviceberry
+Spring 2023 - Volunteer,2023,Spring,Siena Glen Maple,,Reeves Park,,40.1282886,-75.5140541,,,Alive,,,,,False,,Siena glen maple
+Spring 2023 - Volunteer,2023,Spring,Sugar Maple,,Reeves Park,,40.1282409,-75.5109587,,,Alive,,,,,False,,Sugar maple
+Fall 2024,2024,Fall,Buckeye,L,Reeves Park,,40.1281921,-75.51183,,good,Alive,,,,,False,,Reeves Park
+Fall 2024,2024,Fall,Buckeye,L,Reeves Park,,40.1286024,-75.5109996,,good,Alive,,,,,False,,Reeves Park
+Fall 2024,2024,Fall,Giant Dogwood,L,Reeves Park,,40.128533,-75.51206,,good,Alive,,,,,False,,Reeves Park
+Fall 2024,2024,Fall,Giant Dogwood,L,Reeves Park,,40.1284458,-75.5109136,,good,Alive,,,,,False,,Reeves Park
+Fall 2024,2024,Fall,Hackberry,L,Reeves Park,,40.1282998,-75.5115724,,Live,Alive,,,,,False,,Reeves Park
+Fall 2024,2024,Fall,Hackberry,L,Reeves Park,,40.128393,-75.51108,,good,Alive,,,,,False,,Reeves Park
+Fall 2024,2024,Fall,Hackberry,L,Reeves Park,,40.12795,-75.513168,,Live,Alive,,,,,False,,Reeves Park
+Fall 2024,2024,Fall,Hackberry,L,Reservoir Park,,40.146233,-75.518369,,good,Alive,,,,,False,,replace dead tree
+Fall 2024,2024,Fall,Hackberry,L,Reservoir Park,,40.14591,-75.518947,,good,Alive,,,,,False,,
+Fall 2024,2024,Fall,Hophornbeam,L,Reeves Park,,40.1283223,-75.5117036,,dead,Alive,,,,,False,,Reeves Park
+Fall 2024,2024,Fall,Hophornbeam,L,Reservoir Park,,40.146091,-75.518491,,good,Alive,,,,,False,,
+Fall 2024,2024,Fall,Hophornbeam,L,Reeves Park,,40.1285994,-75.5139075,,dead,Alive,,,,,False,,Replace removed sycamore
+Fall 2024,2024,Fall,Serviceberry,S,Reservoir Park,,40.146536,-75.517802,,good,Alive,,,,,False,,replace dead cherry tree
+Fall 2024,2024,Fall,Serviceberry,S,Reservoir Park,,40.145878,-75.517596,,good,Alive,,,,,False,,Replace
+Fall 2024,2024,Fall,Serviceberry,S,Reservoir Park,,40.145468,-75.519405,,good,Alive,,,,,False,,Flowering
+Fall 2024,2024,Fall,Serviceberry,S,242 Hall St,,40.131932,-75.51731,,Good,Alive,,,,,False,Yes,Has a gator bag and resident is watering.
+Fall 2024,2024,Fall,Swamp White Oak,L,Reeves Park,,40.128446,-75.512556,,good,Alive,,,,,False,,Reeves Park
+Fall 2024,2024,Fall,Swamp White Oak,L,Reeves Park,,40.1283043,-75.5118403,,good,Alive,,,,,False,,Reeves Park
+Fall 2024,2024,Fall,Swamp White Oak,L,Reeves Park,,40.128268,-75.5112566,,good,Alive,,,,,False,,Reeves Park
+Fall 2024,2024,Fall,Swamp White Oak,L,Reservoir Park,,40.1448859,-75.5204381,,live,Alive,,,,,False,,
+Fall 2024,2024,Fall,Swamp White Oak,L,Reservoir Park,,40.145751,-75.519043,,good,Alive,,,,,False,,Replace dead oak
+Fall 2024,2024,Fall,Swamp White Oak,,Reservoir Park,,40.147142,-75.51791,,dead,Alive,,,,,False,,
+Fall 2024,2024,Fall,Tilia,L,Reeves Park,,40.128374,-75.511883,,good,Alive,,,,,False,,Reeves Park
+Fall 2024,2024,Fall,Tilia,L,Reeves Park,,40.128244,-75.511379,,good,Alive,,,,,False,,Reeves Park
+Fall 2024,2024,Fall,Tilia,L,Reservoir Park,,40.145988,-75.518678,,good,Alive,,,,,False,,
+Fall 2024,2024,Fall,Tilia,L,Reservoir Park,,40.1448346,-75.5205502,,live,Alive,,,,,False,,replace dead maple; fast growing
+Fall 2024,2024,Fall,Tilia,,Reservoir Park,,40.14608,-75.517718,,good,Alive,,,,,False,,
+Fall 2024,2024,Fall,Yellowwood,L,Reeves Park,,40.128387,-75.511774,,dead,Alive,,,,,False,,Reeves Park
+Fall 2024,2024,Fall,Yellowwood,L,Reeves Park,,40.128286,-75.5111421,,good,Alive,,,,,False,,Reeves Park
+Fall 2024,2024,Fall,Yellowwood,L,Reeves Park,,40.128312,-75.513732,,Dead,Alive,,,,,False,,Replace dead yellowwood
+Fall 2025 - Proposed,2025,Fall,Red Maple,M,125 Fifth Ave,,40.1261437,-75.5113215,,,Alive,,,,,False,,requested birch or maple
+Fall 2025 - Proposed,2025,Fall,Red Maple,M,142 Fifth Ave,,40.1259079,-75.5120886,,,Alive,,,,,False,,overhead wires; requested maple
+Fall 2025 - Proposed,2025,Fall,Red Maple,M,155 Fifth Ave,,40.1258741,-75.5127511,,,Alive,,,,,False,,also backup location for second tree
+Fall 2025 - Proposed,2025,Fall,Yellowwood,M,141 Fifth Ave,,40.1260022,-75.5121088,,,Alive,,,,,False,,
+Fall 2025 - Proposed,2025,Fall,Yellowwood,M,121 Fifth Ave,,40.1261889,-75.5111579,,,Alive,,,,,False,,
+Spring 2025,2025,Spring,American Elm,L,Cascaden Park,,40.1271538,-75.5346887,,Good,Alive,,,,,False,No,
+Spring 2025,2025,Spring,American Elm,L,Cascaden Park,,40.1272103,-75.5348578,,Fair,Alive,,,,,False,No,Leader does not have leaves
+Spring 2025,2025,Spring,American Linden,M,Cascaden Park,,40.1271795,-75.5347698,,Good,Alive,,,,,False,Yes,
+Spring 2025,2025,Spring,American Linden,M,Fisher Park,,40.1235595,-75.5105322,,Good,Alive,,,,,False,No,
+Spring 2025,2025,Spring,Black Maple,L,Morris Park,,40.1241349,-75.5177706,,Good,Alive,,,,,False,No,
+Spring 2025,2025,Spring,Black Maple,L,Morris Park,,40.1240191,-75.5178445,,Good,Alive,,,,,False,No,
+Spring 2025,2025,Spring,Black Maple,L,Morris Park,,40.1239042,-75.517929,,Poor,Alive,,,,,False,No,Leaves dead. Second flush not observed
+Spring 2025,2025,Spring,Cottonwood,L,Fisher Park,,40.1233739,-75.5101771,,Good,Alive,,,,,False,No,Weed whacking or similar scratches at bottom.
+Spring 2025,2025,Spring,Cottonwood,L,Fisher Park,,40.1233438,-75.5100931,,Good,Alive,,,,,False,No,This tree is quite small relative to the Cottonwood near it.
+Spring 2025,2025,Spring,Osage Orange,M,Fisher Park,,40.1235647,-75.5107312,,Good,Alive,,,,,False,No,
+Spring 2025,2025,Spring,Osage Orange,M,Fisher Park,,40.1235415,-75.5106395,,Good,Alive,,,,,False,No,Fourth Ave side
+Spring 2025,2025,Spring,Quaking Aspen,M,Fisher Park,,40.1236283,-75.510093,,Good,Alive,,,,,False,No,"No direct overhead wires, but one perhaps 10 feet away. A bit smaller than an inch in diameter."
+Spring 2025,2025,Spring,Quaking Aspen,M,Fisher Park,,40.1244719,-75.5105597,,Good,Alive,,,,,False,No,"While overall appeared to be in good health, leaves were noticeably dry."
+Spring 2025,2025,Spring,Red Maple,M,Morris Park,,40.1240723,-75.5178104,,Good,Alive,,,,,False,No,5th Ave side
+Spring 2025,2025,Spring,Red Maple,M,Morris Park,,40.1239617,-75.5178839,,Good,Alive,,,,,False,No,
+Spring 2025,2025,Spring,River Birch,M,High Street Park,,40.1378349,-75.5205915,,Good,Alive,,,,,False,No,
+Spring 2025,2025,Spring,River Birch,M,Cascaden Park,,40.1276536,-75.5350027,,Good,Alive,,,,,False,No,
+Spring 2025,2025,Spring,River Birch,M,Cascaden Park,,40.1276228,-75.5349141,,Good,Alive,,,,,False,No,
+Spring 2025,2025,Spring,River Birch,M,Cascaden Park,,40.1275358,-75.5347104,,Good,Alive,,,,,False,No,
+Spring 2025,2025,Spring,River Birch,M,Cascaden Park,,40.1275835,-75.5348291,,Good,Alive,,,,,False,No,
