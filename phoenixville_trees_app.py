@@ -768,29 +768,136 @@ with page_planting:
 
     _here = Path(__file__).parent
 
+    # ── Load planting data ────────────────────────────────────────────────────
+    @st.cache_data
+    def load_planting():
+        p = _here / "phx_planting_history_all.csv"
+        if not p.exists():
+            return None
+        df = pd.read_csv(str(p))
+        df["latitude"]  = pd.to_numeric(df.get("lat",  df.get("latitude",  None)), errors="coerce")
+        df["longitude"] = pd.to_numeric(df.get("lon",  df.get("longitude", None)), errors="coerce")
+        df["year"]      = pd.to_numeric(df["year"], errors="coerce")
+        df = df.dropna(subset=["latitude","longitude","year"])
+        df["year"]      = df["year"].astype(int)
+        return df
+
+    planting_df = load_planting()
+
+    # ── Year colours matching planting app ───────────────────────────────────
+    PLANT_COLOR = {
+        2009:"#78909C", 2010:"#607D8B", 2011:"#546E7A",
+        2012:"#455A64", 2013:"#37474F",
+        2014:"#4DB6AC", 2015:"#26A69A", 2016:"#00897B",
+        2017:"#00796B", 2018:"#00695C",
+        2021:"#1b5e20", 2022:"#388e3c", 2023:"#66bb6a",
+        2024:"#8BC34A", 2025:"#2196f3",
+    }
+
     st.markdown("""
     <div class="about-hero">
         <h2>Planting Planning</h2>
         <p>Each planting season the TAC coordinates volunteer and contract tree planting
-        across the borough. This tab will host planting history maps, species diversity
-        analysis, and site prioritization tools to support planning for future seasons.</p>
-    </div>
-    """, unsafe_allow_html=True)
-
-    st.markdown("""
-    <div class="callout-box">
-    <strong>🚧 Coming soon</strong><br>
-    Planting history maps (2021–present), species breakdown by year, and site
-    selection tools are being finalized and will appear here.
+        across the borough. This tab tracks planting history from 2009 to present,
+        showing species selection, diversity trends, and totals by year.</p>
     </div>
     """, unsafe_allow_html=True)
 
     st.markdown("<br>", unsafe_allow_html=True)
 
+    if planting_df is not None:
+        recent = planting_df[planting_df["year"] >= 2021]
+        hist   = planting_df[planting_df["year"] <  2021]
+
+        # ── Key metrics ──────────────────────────────────────────────────────
+        m1, m2, m3, m4 = st.columns(4)
+        m1.metric("Total Trees Planted",   f"{len(planting_df):,}")
+        m2.metric("Since 2021 (TAC era)",  f"{len(recent):,}")
+        m3.metric("Historical (2009–2018)",f"{len(hist):,}")
+        m4.metric("Species Planted",       f"{planting_df['species'].nunique()}")
+
+        st.divider()
+
+        # ── Trees by year bar chart ───────────────────────────────────────────
+        st.markdown('<div class="section-head">📊 Trees Planted by Year</div>',
+                    unsafe_allow_html=True)
+        by_year = planting_df.groupby("year").size().reset_index(name="count")
+        fig_yr  = go.Figure(go.Bar(
+            x=[str(y) for y in by_year["year"]],
+            y=by_year["count"],
+            marker_color=[PLANT_COLOR.get(y, "#4caf50") for y in by_year["year"]],
+            text=by_year["count"], textposition="outside",
+        ))
+        fig_yr.update_layout(
+            margin=dict(l=40,r=20,t=20,b=40), height=320,
+            yaxis_title="Trees", xaxis_title="Year",
+            plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
+        )
+        st.plotly_chart(fig_yr, use_container_width=True)
+
+        st.divider()
+
+        # ── Top species + spring/fall split ──────────────────────────────────
+        ch1, ch2 = st.columns([3, 2], gap="large")
+
+        with ch1:
+            st.markdown('<div class="section-head">🌳 Top 20 Species Planted (all years)</div>',
+                        unsafe_allow_html=True)
+            top_sp = (planting_df["species"].dropna()
+                      .value_counts().head(20).sort_values())
+            fig_sp = go.Figure(go.Bar(
+                x=top_sp.values, y=top_sp.index,
+                orientation="h", marker_color="#2C5F2D",
+            ))
+            fig_sp.update_layout(
+                margin=dict(l=180,r=20,t=10,b=40), height=500,
+                xaxis_title="Trees Planted",
+                plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
+            )
+            st.plotly_chart(fig_sp, use_container_width=True)
+
+        with ch2:
+            st.markdown('<div class="section-head">🍂 Spring vs Fall (2021–present)</div>',
+                        unsafe_allow_html=True)
+            if "season" in recent.columns:
+                sf = recent[recent["season"].isin(["Spring","Fall"])]
+                piv = sf.groupby(["year","season"]).size().unstack(fill_value=0).reindex(
+                    sorted(sf["year"].unique()))
+                fig_sf = go.Figure()
+                for season, color in [("Spring","#66bb6a"),("Fall","#E8A020")]:
+                    if season in piv.columns:
+                        fig_sf.add_trace(go.Bar(
+                            name=season,
+                            x=[str(y) for y in piv.index],
+                            y=piv[season], marker_color=color,
+                        ))
+                fig_sf.update_layout(
+                    barmode="group", height=260,
+                    margin=dict(l=40,r=20,t=10,b=40),
+                    yaxis_title="Trees",
+                    legend=dict(orientation="h", y=1.1),
+                    plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
+                )
+                st.plotly_chart(fig_sf, use_container_width=True)
+
+            # ── Source breakdown ─────────────────────────────────────────────
+            st.markdown('<div class="section-head">📋 Season Summary (2021–present)</div>',
+                        unsafe_allow_html=True)
+            summary = (recent.groupby("source").size()
+                       .reset_index(name="Trees")
+                       .rename(columns={"source":"Season / Batch"})
+                       .sort_values("Trees", ascending=False))
+            st.dataframe(summary, hide_index=True, use_container_width=True)
+
+        st.divider()
+
+    else:
+        st.info("📂 Place **phx_planting_history_all.csv** in the same folder as this app to enable live planting data.")
+        st.markdown("<br>", unsafe_allow_html=True)
+
     # ── Community planting photos ─────────────────────────────────────────────
     st.markdown('<div class="section-head">🤝 Community Planting Events</div>',
                 unsafe_allow_html=True)
-
     ph1, ph2 = st.columns(2, gap="large")
     with ph1:
         st.image(str(_here / "DSC_0261.jpg"),
@@ -800,45 +907,6 @@ with page_planting:
         st.image(str(_here / "IMG_3975.JPG"),
                  caption="Tree City USA — Phoenixville volunteers at an Arbor Day planting event",
                  use_container_width=True)
-
-    st.markdown("<br>", unsafe_allow_html=True)
-
-    # ── Species chart placeholder ─────────────────────────────────────────────
-    st.markdown('<div class="section-head">🌳 Top Species Planted (2021–2023)</div>',
-                unsafe_allow_html=True)
-    st.image(str(_here / "trees_planted_by_species.jpg"), use_container_width=True)
-
-    st.divider()
-
-    # ── What goes here ────────────────────────────────────────────────────────
-    fu1, fu2 = st.columns(2, gap="large")
-    with fu1:
-        st.markdown('<div class="section-head">📋 What This Tab Will Include</div>',
-                    unsafe_allow_html=True)
-        st.markdown("""
-        - **Interactive planting history map** — all trees planted since 2021,
-          color-coded by year with species and size on click
-        - **Species diversity analysis** — are we planting too many of the same genus?
-        - **Site prioritization** — canopy coverage gaps and Tree Equity Score overlays
-          to identify where to plant next
-        - **Season planning tools** — volunteer vs. contract split recommendations
-        """)
-    with fu2:
-        st.markdown('<div class="section-head">📅 Planting History Summary</div>',
-                    unsafe_allow_html=True)
-        st.markdown("""
-        | Season | Type | Trees |
-        |--------|------|-------|
-        | Spring 2021 | Volunteer | — |
-        | Fall 2021 | Contract + PHS Bare Root | — |
-        | Spring 2022 | Contract + Volunteer | — |
-        | Fall 2022 | Contract + Volunteer | — |
-        | Spring 2023 | Contract + Volunteer | — |
-        | Fall 2023 | Volunteer + Parks | — |
-        | **Total** | | **~279** |
-
-        *Detailed species and location data being integrated.*
-        """)
 
 
 # ══════════════════════════════════════════════════════════════════════════════
