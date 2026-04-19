@@ -31,7 +31,6 @@ st.set_page_config(
     page_title="Phoenixville Urban Forest",
     page_icon=_logo_img,
     layout="wide",
-    initial_sidebar_state="collapsed",
 )
 
 # Inject CSS to prevent Streamlit from clipping metric labels
@@ -175,46 +174,8 @@ def load_data():
 
 df = load_data()  # loads from script folder
 
-# ── Sidebar ───────────────────────────────────────────────────────────────────
-st.sidebar.title("🌳 Tree Inventory")
-st.sidebar.markdown("**Borough of Phoenixville**")
-st.sidebar.divider()
-
-sel_conditions = st.sidebar.multiselect(
-    "Condition", ["Good","Fair","Poor","Unknown"],
-    default=["Good","Fair","Poor","Unknown"],
-)
-dbh_min_val = 0
-dbh_max_val = int(df["DBH"].dropna().max()) + 1  # +1 so trees at the max DBH aren't cut off
-sel_dbh = st.sidebar.slider(
-    "DBH range (inches)", dbh_min_val, dbh_max_val,
-    (dbh_min_val, dbh_max_val),
-)
-sel_species = st.sidebar.multiselect(
-    "Species (leave blank for all)",
-    options=sorted(df["Common Name"].dropna().unique()), default=[],
-    placeholder="All species",
-)
-sel_landuse = st.sidebar.multiselect(
-    "Land Use (leave blank for all)",
-    options=sorted(df["Land Use"].dropna().unique()), default=[],
-    placeholder="All land uses",
-)
-st.sidebar.divider()
-st.sidebar.caption(
-    "Data: Phoenixville Tree Advisory Commission · 2022 Inventory\n\n"
-    "Dot size = DBH · Ecosystem service estimates derived from "
-    "i-Tree Eco NE US regional averages (USDA Forest Service)"
-)
-
-# ── Filter ────────────────────────────────────────────────────────────────────
-filtered = df[df["Condition"].isin(sel_conditions)]
-filtered = filtered[
-    filtered["DBH"].isna() |
-    ((filtered["DBH"] >= sel_dbh[0]) & (filtered["DBH"] <= sel_dbh[1]))
-]
-if sel_species: filtered = filtered[filtered["Common Name"].isin(sel_species)]
-if sel_landuse: filtered = filtered[filtered["Land Use"].isin(sel_landuse)]
+# ── Default: unfiltered (filters now live inside the Explorer tab) ─────────────
+filtered = df.copy()
 
 # ── Top-level page tabs ────────────────────────────────────────────────────────
 _title_logo, _title_text = st.columns([3, 8], gap="medium")
@@ -492,7 +453,45 @@ with page_about:
 # ══════════════════════════════════════════════════════════════════════════════
 with page_explorer:
 
-    st.caption("👈 Use the sidebar (arrow at top left) to filter by condition, species, DBH, or land use.")
+    # ── Inline filters ────────────────────────────────────────────────────────
+    with st.expander("🔍 Filter trees", expanded=False):
+        dbh_min_val = 0
+        dbh_max_val = int(df["DBH"].dropna().max()) + 1
+        fc1, fc2 = st.columns(2, gap="large")
+        with fc1:
+            sel_conditions = st.multiselect(
+                "Condition", ["Good","Fair","Poor","Unknown"],
+                default=["Good","Fair","Poor","Unknown"],
+            )
+            sel_dbh = st.slider(
+                "DBH range (inches)", dbh_min_val, dbh_max_val,
+                (dbh_min_val, dbh_max_val),
+            )
+        with fc2:
+            sel_species = st.multiselect(
+                "Species (leave blank for all)",
+                options=sorted(df["Common Name"].dropna().unique()), default=[],
+                placeholder="All species",
+            )
+            sel_landuse = st.multiselect(
+                "Land Use (leave blank for all)",
+                options=sorted(df["Land Use"].dropna().unique()), default=[],
+                placeholder="All land uses",
+            )
+        st.caption(
+            "Data: Phoenixville Tree Advisory Commission · 2022 Inventory  |  "
+            "Dot size = DBH · Ecosystem service estimates derived from "
+            "i-Tree Eco NE US regional averages (USDA Forest Service)"
+        )
+
+    # ── Apply filters ─────────────────────────────────────────────────────────
+    filtered = df[df["Condition"].isin(sel_conditions)]
+    filtered = filtered[
+        filtered["DBH"].isna() |
+        ((filtered["DBH"] >= sel_dbh[0]) & (filtered["DBH"] <= sel_dbh[1]))
+    ]
+    if sel_species: filtered = filtered[filtered["Common Name"].isin(sel_species)]
+    if sel_landuse: filtered = filtered[filtered["Land Use"].isin(sel_landuse)]
 
     c1,c2,c3,c4 = st.columns(4)
     c1.metric("Showing (filtered)",      f"{len(filtered):,}")
