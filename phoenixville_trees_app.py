@@ -812,8 +812,8 @@ with page_planting:
         # ── Key metrics ──────────────────────────────────────────────────────
         m1, m2, m3, m4 = st.columns(4)
         m1.metric("Total Trees Planted",   f"{len(planting_df):,}")
-        m2.metric("Since 2021 (TAC era)",  f"{len(recent):,}")
-        m3.metric("Historical (2009–2018)",f"{len(hist):,}")
+        m2.metric("Since 2021",  f"{len(recent):,}")
+        m3.metric("2009–2018",f"{len(hist):,}")
         m4.metric("Species Planted",       f"{planting_df['species'].nunique()}")
 
         st.divider()
