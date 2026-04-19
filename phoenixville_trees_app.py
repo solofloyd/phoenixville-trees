@@ -837,57 +837,45 @@ with page_planting:
 
         st.divider()
 
-        # ── Top species + spring/fall split ──────────────────────────────────
-        ch1, ch2 = st.columns([3, 2], gap="large")
+        # ── Top species full width ────────────────────────────────────────────
+        st.markdown('<div class="section-head">🌳 Top 20 Species Planted (all years)</div>',
+                    unsafe_allow_html=True)
+        top_sp = (planting_df["species"].dropna()
+                  .value_counts().head(20).sort_values())
+        fig_sp = go.Figure(go.Bar(
+            x=top_sp.values, y=top_sp.index,
+            orientation="h", marker_color="#2C5F2D",
+        ))
+        fig_sp.update_layout(
+            margin=dict(l=180,r=20,t=10,b=40), height=500,
+            xaxis_title="Trees Planted",
+            plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
+        )
+        st.plotly_chart(fig_sp, use_container_width=True)
 
-        with ch1:
-            st.markdown('<div class="section-head">🌳 Top 20 Species Planted (all years)</div>',
-                        unsafe_allow_html=True)
-            top_sp = (planting_df["species"].dropna()
-                      .value_counts().head(20).sort_values())
-            fig_sp = go.Figure(go.Bar(
-                x=top_sp.values, y=top_sp.index,
-                orientation="h", marker_color="#2C5F2D",
-            ))
-            fig_sp.update_layout(
-                margin=dict(l=180,r=20,t=10,b=40), height=500,
-                xaxis_title="Trees Planted",
+        # ── Spring vs Fall full width, all years ─────────────────────────────
+        st.markdown('<div class="section-head">🍂 Spring vs Fall Plantings (all years)</div>',
+                    unsafe_allow_html=True)
+        if "season" in planting_df.columns:
+            sf = planting_df[planting_df["season"].isin(["Spring","Fall"])]
+            piv = sf.groupby(["year","season"]).size().unstack(fill_value=0).reindex(
+                sorted(sf["year"].unique()))
+            fig_sf = go.Figure()
+            for season, color in [("Spring","#66bb6a"),("Fall","#E8A020")]:
+                if season in piv.columns:
+                    fig_sf.add_trace(go.Bar(
+                        name=season,
+                        x=[str(y) for y in piv.index],
+                        y=piv[season], marker_color=color,
+                    ))
+            fig_sf.update_layout(
+                barmode="group", height=320,
+                margin=dict(l=40,r=20,t=10,b=40),
+                yaxis_title="Trees", xaxis_title="Year",
+                legend=dict(orientation="h", y=1.1),
                 plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
             )
-            st.plotly_chart(fig_sp, use_container_width=True)
-
-        with ch2:
-            st.markdown('<div class="section-head">🍂 Spring vs Fall (2021–present)</div>',
-                        unsafe_allow_html=True)
-            if "season" in recent.columns:
-                sf = recent[recent["season"].isin(["Spring","Fall"])]
-                piv = sf.groupby(["year","season"]).size().unstack(fill_value=0).reindex(
-                    sorted(sf["year"].unique()))
-                fig_sf = go.Figure()
-                for season, color in [("Spring","#66bb6a"),("Fall","#E8A020")]:
-                    if season in piv.columns:
-                        fig_sf.add_trace(go.Bar(
-                            name=season,
-                            x=[str(y) for y in piv.index],
-                            y=piv[season], marker_color=color,
-                        ))
-                fig_sf.update_layout(
-                    barmode="group", height=260,
-                    margin=dict(l=40,r=20,t=10,b=40),
-                    yaxis_title="Trees",
-                    legend=dict(orientation="h", y=1.1),
-                    plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
-                )
-                st.plotly_chart(fig_sf, use_container_width=True)
-
-            # ── Source breakdown ─────────────────────────────────────────────
-            st.markdown('<div class="section-head">📋 Season Summary (2021–present)</div>',
-                        unsafe_allow_html=True)
-            summary = (recent.groupby("source").size()
-                       .reset_index(name="Trees")
-                       .rename(columns={"source":"Season / Batch"})
-                       .sort_values("Trees", ascending=False))
-            st.dataframe(summary, hide_index=True, use_container_width=True)
+            st.plotly_chart(fig_sf, use_container_width=True)
 
         st.divider()
 
