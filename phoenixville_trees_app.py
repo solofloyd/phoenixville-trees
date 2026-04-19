@@ -853,30 +853,6 @@ with page_planting:
         )
         st.plotly_chart(fig_sp, use_container_width=True)
 
-        # ── Spring vs Fall full width, all years ─────────────────────────────
-        st.markdown('<div class="section-head">🍂 Spring vs Fall Plantings (2021–present)</div>',
-                    unsafe_allow_html=True)
-        if "season" in planting_df.columns:
-            sf = planting_df[planting_df["season"].isin(["Spring","Fall"])]
-            piv = sf.groupby(["year","season"]).size().unstack(fill_value=0).reindex(
-                sorted(sf["year"].unique()))
-            fig_sf = go.Figure()
-            for season, color in [("Spring","#66bb6a"),("Fall","#E8A020")]:
-                if season in piv.columns:
-                    fig_sf.add_trace(go.Bar(
-                        name=season,
-                        x=[str(y) for y in piv.index],
-                        y=piv[season], marker_color=color,
-                    ))
-            fig_sf.update_layout(
-                barmode="group", height=320,
-                margin=dict(l=40,r=20,t=10,b=40),
-                yaxis_title="Trees", xaxis_title="Year",
-                legend=dict(orientation="h", y=1.1),
-                plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
-            )
-            st.plotly_chart(fig_sf, use_container_width=True)
-
         st.divider()
 
     else:
