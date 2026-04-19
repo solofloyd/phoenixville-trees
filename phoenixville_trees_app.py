@@ -854,7 +854,7 @@ with page_planting:
         st.plotly_chart(fig_sp, use_container_width=True)
 
         # ── Spring vs Fall full width, all years ─────────────────────────────
-        st.markdown('<div class="section-head">🍂 Spring vs Fall Plantings (all years)</div>',
+        st.markdown('<div class="section-head">🍂 Spring vs Fall Plantings (2021–present)</div>',
                     unsafe_allow_html=True)
         if "season" in planting_df.columns:
             sf = planting_df[planting_df["season"].isin(["Spring","Fall"])]
