@@ -33,12 +33,15 @@ st.set_page_config(
     layout="wide",
 )
 
-# Inject CSS to prevent Streamlit from clipping metric labels
+# Inject CSS to prevent Streamlit from clipping metric labels and hide sidebar
 st.markdown("""
 <style>
     [data-testid="stMetricLabel"] { font-size: 0.75rem; white-space: normal !important; }
     [data-testid="stMetricValue"] { font-size: 1.2rem; }
     div[data-testid="column"] { padding: 0 6px; }
+    [data-testid="collapsedControl"] { display: none; }
+    [data-testid="stSidebar"] { display: none; }
+    .main .block-container { padding-left: 2rem; }
 </style>
 """, unsafe_allow_html=True)
 
