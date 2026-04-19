@@ -398,8 +398,9 @@ with page_about:
         - **Downtown** (along Bridge St. corridor)
         - **North Side** (Emmett, Franklin, and Rhodes St. area)
 
-        Since 2021, the TAC has planted **279 trees** through volunteer and contract
-        planting programs, with species selected to improve diversity and resilience.
+        Since 2009, the TAC and its partners have planted over **700 trees** across
+        Phoenixville through volunteer and contract planting programs, with species
+        selected to improve diversity and resilience.
         """)
 
     with col_mapphoto:
@@ -423,15 +424,21 @@ with page_about:
         st.markdown('<div class="section-head">🖥️ How to Use This Dashboard</div>',
                     unsafe_allow_html=True)
         st.markdown("""
-        Use the **Inventory Explorer** tab to explore Phoenixville's trees interactively:
+        This dashboard has four tabs — use the tab bar at the top to navigate:
 
-        1. **Filter** by condition, species, DBH size, or land use using the sidebar
-        2. **Map** — click any tree pin to see its species, DBH, and condition
-        3. **Charts** — see the distribution of species and conditions across the filtered set
-        4. **Download** — export any filtered view as a CSV for your own analysis
+        - **🌿 About** — you're here. Background on the urban forest, key stats, and photos
+        - **🗺️ Inventory Explorer** — interactive map and charts for every borough tree.
+          Use the **"🔍 Filter trees"** expander at the top of that tab to filter by
+          condition, species, DBH, or land use. The sidebar on the left does the same thing.
+          Click any pin on the map to see that tree's details, and download any filtered
+          view as a CSV.
+        - **🌱 Planting Planning** — planting history from 2009 to present, species
+          breakdown, and totals by year
+        - **🔧 Decision Support** — information on active tree management programs
+          including the EAB treatment plan
 
-        The dashboard updates automatically as you adjust the filters — all charts,
-        metrics, and the map reflect your current selection.
+        All charts and metrics in the Inventory Explorer update automatically as you
+        adjust the filters.
         """)
 
     with col_involve:
